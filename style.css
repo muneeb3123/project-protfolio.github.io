@@ -16,7 +16,7 @@ header {
   background-color: #fff;
 }
 
-nav {
+.Navbar {
   display: flex;
   flex-direction: row;
   padding: 24px;
@@ -45,7 +45,7 @@ nav #mylogo {
   font-weight: 700;
 }
 
-#largetext {
+#Headline-Title {
   width: 327px;
   height: 150px;
   font-weight: 700;
@@ -57,7 +57,7 @@ nav #mylogo {
   font-style: normal;
 }
 
-#smallText {
+#Headline-Text {
   width: 327px;
   height: 146px;
   font-weight: 400;
