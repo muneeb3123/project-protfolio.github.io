@@ -1,0 +1,98 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  background-color: #e5e5e5;
+  margin: 0;
+}
+
+header {
+  background-color: #fff;
+}
+
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  padding: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav #logo {
+  align-items: flex-start;
+  padding: 8px;
+  width: 35px;
+  height: 30px;
+  right: 19px;
+  top: calc(50% - 40px / 2);
+  border-radius: 8px;
+}
+
+nav #mylogo {
+  align-items: center;
+  padding: 10px 12px;
+  height: 40px;
+  left: 12px;
+  top: calc(50% - 40px / 2);
+  text-decoration: none;
+  font-size: normal;
+  font-weight: 700;
+}
+
+#Headline-Title {
+  width: 327px;
+  height: 150px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+}
+
+#Headline-Text {
+  width: 327px;
+  height: 146px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  font-style: normal;
+}
+
+.helpingtext {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #7f8cff;
+  order: 0;
+}
+
+.socialmedia ul {
+  width: 170.17px;
+  height: 20px;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.headline {
+  background-color: #fff;
+  border-bottom-left-radius: 80px;
+  gap: 12px;
+  background-image: url(req/header-shapes.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 114px 24px 114px 24px;
+}
