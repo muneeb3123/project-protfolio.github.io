@@ -74,6 +74,7 @@ nav #mylogo {
   line-height: 25px;
   color: #7f8cff;
   order: 0;
+  margin: 0;
 }
 
 .socialmedia ul {
@@ -230,6 +231,13 @@ nav #mylogo {
   background: #ebebff;
 }
 
+.style:hover {
+  transform: scale(1.3);
+  transition-duration: 0.3s;
+  background-color: #6070ff;
+  color: white;
+}
+
 .link {
   padding: 13px;
   gap: 10px;
@@ -245,8 +253,20 @@ nav #mylogo {
   text-align: center;
   cursor: pointer;
   order: 3;
-  margin: 12px 0;
   color: #396df2;
+  margin: 0;
+}
+
+.link:hover {
+  transform: scale(1.3);
+  transition-duration: 0.3s;
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.link:active {
+  background-color: #2230d2;
+  color: #fff;
 }
 
 .About-container {
@@ -263,7 +283,7 @@ nav #mylogo {
   flex-direction: column;
   align-items: flex-start;
   padding: 0;
-  gap: 14px;
+  gap: 12px;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -272,17 +292,19 @@ nav #mylogo {
 .text {
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 24px;
   color: #344563;
+  margin: 0;
 }
 
 .about-head {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  line-height: 50px;
-  color: #091e42;
+  line-height: 52px;
+  color: #172b4d;
+  margin: 0;
 }
 
 .about-skills {
@@ -325,6 +347,16 @@ nav #mylogo {
   display: block;
   padding: 5px;
   margin-right: 10px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
 
 .lang-container {
