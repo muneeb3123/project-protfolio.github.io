@@ -309,6 +309,8 @@ nav #mylogo {
 
 .about-skills {
   padding: 0;
+  display: flex;
+  flex-direction: column;
   width: 327px;
   height: 464.15px;
   flex: none;
@@ -320,10 +322,14 @@ nav #mylogo {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 327px;
+  height: 72px;
+  margin-left: 24px;
 }
 
 .lang-head {
   display: flex;
+  width: 200px;
   height: 24px;
   align-items: center;
   justify-content: space-between;
@@ -366,6 +372,8 @@ nav #mylogo {
   border-radius: 8px;
   padding-left: 14px;
   margin: 6px;
+  width: 327px;
+  height: 72px;
 }
 
 .lang-img {
