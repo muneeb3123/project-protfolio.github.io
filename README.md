@@ -106,6 +106,7 @@ Step 2: Locate the folder where you cloned your project to and open the `index.h
 - **CSS framework designing**
 - **More detailed**
 - **Master HTML**
+- **deskstop version**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,7 +132,7 @@ Feel free to check the [issues page](../../issues/).
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-I would like to thank the reviewer who review my code honestly to improve my skills
+"Special thanks to my coding partner "Alejandro Salazar Castro" for their invaluable contributions to this project. Their dedication, skills, and collaborative spirit were essential to our success."
 
 
 
