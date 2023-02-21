@@ -91,6 +91,13 @@ Step 2: Locate the folder where you cloned your project to and open the `index.h
 - Twitter: [@Hafizabd4](https://twitter.com/Hafizabd4)
 - LinkedIn: (https://www.linkedin.com/in/muneeb-rehman-01b6bb193/)
 
+👤 **Author: Alejandro Salazar Castro**
+
+- GitHub: [@githubhandle](https://github.com/xandro2021)
+- Twitter: [@twitterhandle](https://twitter.com/xandro2021)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alejandro-salazar-ba0ba7255/)
+- Mastodon: [Mastodon](https://uiuxdev.social/@xandrocastro)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
