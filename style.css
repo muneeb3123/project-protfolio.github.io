@@ -407,14 +407,42 @@ nav #mylogo {
 
 .container {
   display: flex;
-  width: 375px;
-  height: 779px;
+  width: 100%;
+  height: auto;
   flex-direction: column;
   border-top-left-radius: 80px;
   padding: 115px 25px;
   background-color: #6070ff;
   padding-bottom: 40px;
-  background-image: url("req/header-shapes.png");
+  position: relative;
+}
+
+.container::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 9rem;
+  background-image: url("./images/icon01.png"), url("./images/icon02.png");
+  background-size: 6rem, 2rem;
+  background-repeat: no-repeat;
+  background-position: 100% 99%, 21% 52%;
+  position: absolute;
+  right: 0%;
+  top: 1%;
+}
+
+.container::after {
+  content: "";
+  display: block;
+  width: 19rem;
+  height: 9rem;
+  background-image: url("./images/icon03.png");
+  background-size: 6rem;
+  background-repeat: no-repeat;
+  background-position: 100% 99%;
+  position: absolute;
+  right: 15%;
+  bottom: 1%;
 }
 
 .container-header {
@@ -455,7 +483,7 @@ nav #mylogo {
   border-radius: 12px;
   width: 327px;
   height: 48px;
-   border: none;
+  border: none;
 }
 
 .contact-form textarea {
