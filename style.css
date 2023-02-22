@@ -437,27 +437,23 @@ nav #mylogo {
   width: 19rem;
   height: 9rem;
   background-image: url("./images/icon03.png");
-  background-size: 6rem;
+  background-size: 5rem;
   background-repeat: no-repeat;
   background-position: 100% 99%;
   position: absolute;
   right: 15%;
-  bottom: 1%;
+  bottom: 9%;
 }
 
 .container-header {
-  display: flex;
-  align-items: center;
   text-align: center;
+  margin: 0 auto;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   color: #fff;
   padding: 0;
-  margin: 0;
-  width: 801px;
   height: 56px;
-  padding-left: 40px;
 }
 
 .container-text {
@@ -476,7 +472,7 @@ nav #mylogo {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  margin-top: 50px;
+  margin: 50px auto;
 }
 
 .contact-form input {
@@ -518,4 +514,14 @@ nav #mylogo {
 .btn:active {
   background-color: #2230d2;
   color: #fff;
+}
+
+.bottonIcon,
+.bottonIcon > img {
+  display: block;
+  margin: 0 auto;
+}
+
+.bottonIcon > img {
+  width: calc(100% / 2);
 }
