@@ -445,6 +445,10 @@ nav #mylogo {
   bottom: 9%;
 }
 
+.container > * {
+  z-index: 1;
+}
+
 .container-header {
   text-align: center;
   margin: 0 auto;
