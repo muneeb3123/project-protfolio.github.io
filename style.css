@@ -100,7 +100,7 @@ nav #mylogo {
   background-color: #fff;
   border-bottom-left-radius: 80px;
   gap: 12px;
-  background-image: url(req/header-shapes.png);
+  background-image: url(req/hero.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -378,6 +378,8 @@ nav #mylogo {
 .drop-box {
   display: flex;
   flex-direction: column;
+  position: relative;
+  right: 4%;
 }
 
 .container::after {
@@ -418,6 +420,7 @@ nav #mylogo {
   margin: 0 auto;
   margin-top: 12px;
   font-style: normal;
+  width: 84%;
 }
 
 .contact-form {
@@ -498,6 +501,12 @@ nav #mylogo {
   }
 }
 
+@media (min-width: 504px) {
+  .drop-box {
+    right: 2%;
+  }
+}
+
 @media (min-width: 507px) {
   #Headline-Text {
     width: 90%;
@@ -508,11 +517,35 @@ nav #mylogo {
   }
 }
 
+@media (min-width: 672px) {
+  .drop-box {
+    right: 0;
+  }
+}
+
 @media (min-width: 768px) {
   .Box {
     flex-direction: row;
     width: 90%;
     margin-left: 5%;
+  }
+
+  .contact-form {
+    margin: 50px auto;
+    width: 50%;
+  }
+  
+  .contact-form > input,
+  .contact-form > textarea {
+    width: 100%;
+  }
+
+  .Box:nth-child(2n) .content {
+    order: -1;
+  }
+
+  .bottonIcon {
+    display: none;
   }
 
   .container-text {
@@ -632,6 +665,9 @@ nav #mylogo {
     align-self: center;
     height: min(448px, 80vw);
     width: min(544px, 44vw);
+  }
+  .drop-box {
+    left: 3%;
   }
 }
 
