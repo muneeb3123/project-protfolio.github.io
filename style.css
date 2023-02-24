@@ -534,10 +534,15 @@ nav #mylogo {
     margin: 50px auto;
     width: 50%;
   }
-  
+
   .contact-form > input,
   .contact-form > textarea {
     width: 100%;
+  }
+
+  .content {
+    margin-left: 3%;
+    margin-top: 1%;
   }
 
   .Box:nth-child(2n) .content {
@@ -579,11 +584,6 @@ nav #mylogo {
 
   .drop-box {
     max-width: 70%;
-  }
-
-  .content {
-    margin-left: 3%;
-    margin-top: 1%;
   }
 
   .dropdown {
@@ -666,6 +666,7 @@ nav #mylogo {
     height: min(448px, 80vw);
     width: min(544px, 44vw);
   }
+
   .drop-box {
     left: 3%;
   }
