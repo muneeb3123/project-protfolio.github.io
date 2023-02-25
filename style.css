@@ -515,6 +515,12 @@ nav #mylogo {
   background-color: #f7f7f9;
   gap: 2%;
   margin-top: 12px;
+  transition: background-color 300ms, scale 500ms;
+}
+
+.drop-li:hover {
+  background-color: #dadadc;
+  scale: 1.1;
 }
 
 @media (max-width: 279px) {
