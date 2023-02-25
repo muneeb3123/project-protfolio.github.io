@@ -36,6 +36,10 @@ nav #logo {
   height: 30px;
 }
 
+#mylogo {
+  animation: rotate 1.5s ease-in-out;
+}
+
 nav #mylogo {
   margin: 0;
   padding: 10px 12px;
@@ -82,14 +86,11 @@ nav #mylogo {
   color: red;
 }
 
-#mylogo {
-  animation: rotate 1.5s ease-in-out;
-}
-
 @keyframes rotate {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
