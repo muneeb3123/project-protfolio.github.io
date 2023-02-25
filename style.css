@@ -36,6 +36,10 @@ nav #logo {
   height: 30px;
 }
 
+#mylogo {
+  animation: rotate 1.5s ease-in-out;
+}
+
 nav #mylogo {
   margin: 0;
   padding: 10px 12px;
@@ -74,6 +78,32 @@ nav #mylogo {
   color: #7f8cff;
   order: 0;
   margin: 0;
+}
+
+.menue-icon:hover {
+  transform: scale(1.3);
+  transition-duration: 0.3s;
+  color: red;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#Headline-Title:hover {
+  color: #1a237e;
+  transform: scale(1.02);
+}
+
+.helpingtext:hover {
+  color: #1a237e;
+  transform: scale(1.01);
 }
 
 .belowtext {
@@ -264,7 +294,7 @@ nav #mylogo {
 }
 
 .style:hover {
-  transform: scale(1.3);
+  transform: scale(1.3,);
   transition-duration: 0.3s;
   background-color: #6070ff;
   color: white;
@@ -486,6 +516,12 @@ nav #mylogo {
   background-color: #f7f7f9;
   gap: 2%;
   margin-top: 12px;
+  transition: background-color 300ms, scale 500ms;
+}
+
+.drop-li:hover {
+  background-color: #dadadc;
+  scale: 1.1;
 }
 
 @media (max-width: 279px) {
