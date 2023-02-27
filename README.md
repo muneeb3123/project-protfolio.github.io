@@ -54,8 +54,9 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-Currently i dont have live demo link.
+## 🚀 Live Demo <a name="protfolio-project"></a>
+ https://muneeb3123.github.io/project-protfolio.github.io/
+This is live version of my protfolio project.you can click on this link to watch live demo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
