@@ -108,6 +108,7 @@ Step 2: Locate the folder where you cloned your project to and open the `index.h
 - **More detailed**
 - **Master HTML**
 - **deskstop version**
+- outline walkthrough: https://www.loom.com/share/b2022093bb4542649e3c5299d6f374b9
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
