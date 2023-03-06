@@ -1,0 +1,3 @@
+menuIcon.addEventListener('click', function(){
+    
+})
