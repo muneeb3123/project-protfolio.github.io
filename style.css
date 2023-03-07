@@ -628,6 +628,10 @@ nav #mylogo {
     display: none;
   }
 
+  .hamburger {
+    display: none;
+  }
+  
   .drop-box {
     flex-direction: row;
     gap: 3%;
