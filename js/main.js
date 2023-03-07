@@ -20,3 +20,26 @@ menuItem.forEach(
     menuItem.addEventListener('click', toggleMenu);
   },
 );
+
+//Here's the example I use
+const body = document.querySelector('body');
+const section = document.createElement('section');
+
+const popup = document.querySelector('.popup');
+popup.addEventListener('click', function() {
+    const container = document.createElement('div');
+    container.className = 'popupContent'
+    section.innerHTML = `
+    <h1>¡¡¡SURPRISE!!!</h1>
+    <p>This is my first pop up, can you guess?</p>
+    <button class="closePopup">Ok, bye!</button>
+    `;
+
+    body.appendChild(container);
+    container.appendChild(section);
+
+    const closePopup = document.querySelector('.closePopup');
+    closePopup.addEventListener('click', function() {
+        body.removeChild(container);
+    });
+});
