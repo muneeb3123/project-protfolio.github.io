@@ -23,13 +23,12 @@ header {
 
 .menuLvl {
   display: block;
-  background-color: #6070FF;
+  background-color: #6070ff;
   width: 254%;
   height: 2.5px;
   margin: 4px;
   border-radius: 2px;
 }
-
 
 .Navbar {
   display: flex;
@@ -38,10 +37,6 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 85px;
-}
-
-.showMenu {
-  transform: translateY(0);
 }
 
 .menu {
@@ -62,6 +57,26 @@ header {
   padding-top: 4rem;
   font-weight: 800;
   height: 100vh;
+}
+
+.hamburger {
+  position: absolute;
+  z-index: 10;
+  top: 1.6rem;
+  right: 1rem;
+  padding: 4px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.menuIcon {
+  color: #6070ff;
+}
+
+.closeIcon {
+  color: #fff;
+  display: none !important;
 }
 
 .show-menu {
