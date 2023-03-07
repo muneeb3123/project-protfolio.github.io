@@ -49,6 +49,7 @@
 - **It has MIT license**
 - **It has html**
 - **It has CSS**
+- **It has javascript**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,6 +100,8 @@ Step 2: Locate the folder where you cloned your project to and open the `index.h
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/alejandro-salazar-ba0ba7255/)
 - Mastodon: [Mastodon](https://uiuxdev.social/@xandrocastro)
 
+👤 **Author: Alejandro Salazar Castro**
+- GitHub: [uuukiiiyooo](https://github.com/uuukiiiyooo)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->

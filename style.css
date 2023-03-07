@@ -10,6 +10,7 @@ li {
 body {
   background-color: #e5e5e5;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .menue {
@@ -20,6 +21,15 @@ header {
   background-color: #fff;
 }
 
+.menuLvl {
+  display: block;
+  background-color: #6070ff;
+  width: 254%;
+  height: 2.5px;
+  margin: 4px;
+  border-radius: 2px;
+}
+
 .Navbar {
   display: flex;
   flex-direction: row;
@@ -27,6 +37,62 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 85px;
+}
+
+.menu {
+  position: fixed;
+  display: block;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: -24px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(7px);
+  color: white;
+  list-style: none;
+  padding-top: 4rem;
+  font-weight: 800;
+  height: 100vh;
+}
+
+.hamburger {
+  position: absolute;
+  z-index: 10;
+  top: 1.6rem;
+  right: 1rem;
+  padding: 4px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.menuIcon {
+  color: #6070ff;
+}
+
+.closeIcon {
+  color: #fff;
+  position: fixed;
+  margin-left: -28px;
+  display: none !important;
+}
+
+.show-menu {
+  transform: translateY(0%);
+}
+
+.menuItem {
+  display: block;
+  margin: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  margin-left: 0;
 }
 
 nav #logo {
@@ -558,6 +624,14 @@ nav #mylogo {
     flex-direction: row;
     width: 90%;
     margin: auto;
+  }
+
+  .menuIcon {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
   }
 
   .drop-box {
