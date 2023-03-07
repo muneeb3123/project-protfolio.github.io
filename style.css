@@ -76,6 +76,8 @@ header {
 
 .closeIcon {
   color: #fff;
+  position: fixed;
+  margin-left: -28px;
   display: none !important;
 }
 
