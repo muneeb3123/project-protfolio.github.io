@@ -631,7 +631,7 @@ nav #mylogo {
   .hamburger {
     display: none;
   }
-  
+
   .drop-box {
     flex-direction: row;
     gap: 3%;
