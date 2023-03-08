@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/popup.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Muneeb's protfolio</title>
 </head>
-
+<!-- <a href="#" class="link">${data.smBtnText}</a> -->
 <body>
     <!--This is the header section-->
     <header>
@@ -71,90 +72,6 @@
     </section>
 
     <section id="works" class="Grid-boxes">
-        <article class="Box">
-            <img class="box-image" src="req/tonic.png" alt="protfolio image tonic">
-            <div class="content">
-                <h2 class="content-title">Tonic</h2>
-                <div class="text-title">
-                    <a href="#" class="client">CANOPY</a>
-                    <img class="dot" src="req/dot.png" alt="dot">
-                    <a href="#" class="client-skills">BACK END DEV</a>
-                    <img class="dot" src="req/dot.png" alt="dot">
-                    <a href="#" class="period">2015</a>
-                </div>
-                <p class="content-text">A daily selection Of privately personalized reads; no accounts or sign-ups
-                    required</p>
-                <ul class="tags">
-                    <li class="style">html</li>
-                    <li class="style">css</li>
-                    <li class="style">javascript</li>
-                </ul>
-                <a href="#" class="link">See Project</a>
-            </div>
-        </article>
-        <article class="Box">
-            <img class="box-image" src="req/multi.png" alt="protfolio image multi">
-            <div class="content">
-                <h2 class="content-title">Multi-Post Stories</h2>
-                <div class="text-title">
-                    <a href="#" class="client">CANOPY</a>
-                    <img class="dot" src="req/dot.png" alt="dot">
-                    <a href="#" class="client-skills">BACK END DEV</a>
-                    <img class="dot" src="req/dot.png" alt="dot">
-                    <a href="#" class="period">2015</a>
-                </div>
-                <p class="content-text">A daily selection Of privately personalized reads; no accounts or sign-ups
-                    required</p>
-                <ul class="tags">
-                    <li class="style">html</li>
-                    <li class="style">css</li>
-                    <li class="style">javascript</li>
-                </ul>
-                <a href="#" class="link">See Project</a>
-            </div>
-        </article>
-        <article class="Box">
-            <img class="box-image" src="req/tonic_2.png" alt=" protfolio image tonic_2">
-            <div class="content">
-                <h2 class="content-title">Tonic</h2>
-                <div class="text-title">
-                    <a href="#" class="client">CANOPY</a>
-                    <img class="dot" src="req/dot.png" alt="dot">
-                    <a href="#" class="client-skills">BACK END DEV</a>
-                    <img class="dot" src="req/dot.png" alt="dot">
-                    <a href="#" class="period">2015</a>
-                </div>
-                <p class="content-text">A daily selection Of privately personalized reads; no accounts or sign-ups
-                    required</p>
-                <ul class="tags">
-                    <li class="style">html</li>
-                    <li class="style">css</li>
-                    <li class="style">javascript</li>
-                </ul>
-                <a href="#" class="link">See Project</a>
-            </div>
-        </article>
-        <article class="Box">
-            <img class="box-image" src="req/multi_2.png" alt=" protfolio image multi_2">
-            <div class="content">
-                <h2 class="content-title">Multi-Post Stories</h2>
-                <div class="text-title">
-                    <a href="#" class="client">CANOPY</a>
-                    <img class="dot" src="req/dot.png" alt="dot">
-                    <a href="#" class="client-skills">BACK END DEV</a>
-                    <img class="dot" src="req/dot.png" alt="dot">
-                    <a href="#" class="period">2015</a>
-                </div>
-                <p class="content-text">A daily selection Of privately personalized reads; no accounts or sign-ups
-                    required</p>
-                <ul class="tags">
-                    <li class="style">html</li>
-                    <li class="style">css</li>
-                    <li class="style">javascript</li>
-                </ul>
-                <a href="#" class="link">See Project</a>
-            </div>
-        </article>
     </section>
     <section id="about-section">
         <div class="about">
@@ -246,7 +163,9 @@
             <img src="images/icon04.png" alt="icon in the bottom" />
         </div>
     </section>
+    <section class="modal modal-hid" id="modal"></section>
     <script src="./js/main.js"></script>
+    <script src="./js/model.js" type="module"></script>
 
 </body>
 
