@@ -196,7 +196,7 @@ nav #mylogo {
   background-color: #fff;
   border-bottom-left-radius: 80px;
   gap: 12px;
-  background-image: url(req/hero.png);
+  background-image: url(/req/hero.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -360,7 +360,7 @@ nav #mylogo {
 }
 
 .style:hover {
-  transform: scale(1.3,);
+  transform: scale(1.3);
   transition-duration: 0.3s;
   background-color: #6070ff;
   color: white;
@@ -370,6 +370,7 @@ nav #mylogo {
   padding: 13px;
   gap: 10px;
   left: 0;
+  background-color: #fff;
   border: 1px solid #6070ff;
   border-radius: 9px;
   letter-spacing: 0.04em;
@@ -462,7 +463,7 @@ nav #mylogo {
   display: block;
   width: 100%;
   height: 9rem;
-  background-image: url("./images/icon01.png"), url("./images/icon02.png");
+  background-image: url("/images/icon01.png"), url("/images/icon02.png");
   background-size: 6rem, 2rem;
   background-repeat: no-repeat;
   background-position: 100% 99%, 21% 52%;
@@ -483,7 +484,7 @@ nav #mylogo {
   display: block;
   width: 19rem;
   height: 9rem;
-  background-image: url("./images/icon03.png");
+  background-image: url("/images/icon03.png");
   background-size: 5rem;
   background-repeat: no-repeat;
   background-position: 100% 99%;
@@ -571,6 +572,7 @@ nav #mylogo {
 .bottonIcon > img {
   display: block;
   margin: 0 auto;
+  z-index: 200;
 }
 
 .bottonIcon > img {
