@@ -3,8 +3,11 @@ body {
   margin: 0;
 }
 
-.popup {
+.flex {
   display: flex;
+}
+
+.popup {
   flex-direction: column;
   background-color: #fff;
   position: fixed;
@@ -21,7 +24,6 @@ body {
 }
 
 .header {
-  display: flex;
   align-items: center;
   justify-content: space-between;
 }
@@ -51,9 +53,8 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
-  display: flex;
   gap: 10px;
-  padding-top: 24px;
+  padding-top: 6px;
   align-items: center;
 }
 
@@ -62,14 +63,14 @@ body {
 }
 
 .projectImage {
-  padding-top: 24px;
+  padding-top: 16px;
 }
 
 .paraText {
   padding: 0;
   margin: 0;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 14px;
   line-height: 1.4rem;
 }
 
@@ -78,8 +79,7 @@ body {
   margin: 0;
   list-style: none;
   padding-top: 10px;
-  display: flex;
-  gap: 12px;
+  gap: 8px;
 }
 
 .desktag1 {
@@ -90,12 +90,12 @@ body {
   margin: 0;
   background-color: #ebebff;
   border-radius: 8px;
-  padding: 8px 12px;
+  padding: 3px 10px;
   color: #6070ff;
 }
 
 .separater {
-  padding-top: 12px;
+  padding-top: 3px;
 }
 
 .sep {
@@ -103,8 +103,7 @@ body {
 }
 
 .smBtn {
-  padding-top: 20px;
-  display: flex;
+  padding-top: 8px;
   align-items: center;
   gap: 20px;
 }
@@ -116,13 +115,12 @@ body {
   height: 55px;
   gap: 14px;
   color: #396df2;
-  font-size: 17px;
+  font-size: 12px;
   font-weight: 500;
   background-color: #fff;
   border-color: #6070ff;
   border-radius: 8px;
   padding: 4px 14px;
-  display: flex;
   text-align: center;
   justify-content: center;
 }
@@ -199,7 +197,6 @@ body {
     width: 146px;
     height: 47px;
     gap: 14px;
-    display: flex;
     justify-content: center;
   }
 

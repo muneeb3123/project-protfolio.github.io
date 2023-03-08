@@ -370,6 +370,7 @@ nav #mylogo {
   padding: 13px;
   gap: 10px;
   left: 0;
+  background-color: #fff;
   border: 1px solid #6070ff;
   border-radius: 9px;
   letter-spacing: 0.04em;

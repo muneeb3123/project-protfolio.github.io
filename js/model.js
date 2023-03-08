@@ -20,9 +20,9 @@ document.querySelector('.Grid-boxes').innerHTML = modeldata
         <li class='style'>${data.technologies[1]}</li>
         <li class='style'>${data.technologies[2]}</li>
     </ul>
-    <a href='#' class='link' aria-label='Enter here to see this project.'
+    <button class='link' aria-label='Enter here to see this project.'
     id='project_${index}'
-    data-target='modal'>${data.smBtnText}</a>
+    data-target='modal'>${data.smBtnText}</button>
 </div>
 </article>
 `,
@@ -32,12 +32,12 @@ document.querySelector('.Grid-boxes').innerHTML = modeldata
 const displayModal = (marzi) => {
   const modalSection = document.querySelector('.modal');
   modalSection.innerHTML = ` <div class='overlay'></div>
-    <div class='popup'>
-        <div class='header'>
+    <div class='popup flex'>
+        <div class='header flex'>
             <h1 class='heading'>${marzi.projectname}</h1>
             <button class='closeBtn'>&times;</button>
         </div>
-        <ul class='author'>
+        <ul class='author flex'>
             <li class='frame1'>${marzi.frame[0]}</li>
             <li><img src='${marzi.dot}' alt='dot' /></li>
             <li class='frame'>${marzi.frame[1]}</li>
@@ -53,7 +53,7 @@ const displayModal = (marzi) => {
                 ${marzi.disdes}
                 </p>
             </div>
-            <ul class='socialmediaa'>
+            <ul class='socialmediaa flex'>
                 <li class='desktag'>${marzi.technologies[0]}</li>
                 <li class='desktag'>${marzi.technologies[1]}</li>
                 <li class='desktag'>${marzi.technologies[2]}</li>
@@ -64,11 +64,11 @@ const displayModal = (marzi) => {
             <div class='separater'>
                 <img src='${marzi.sep}' alt='sep' class='sep' />
             </div>
-            <div class='smBtn'>
-                <button class='popBtn'>
+            <div class='smBtn flex'>
+                <button class='popBtn flex'>
                     see live<img src='${marzi.livelogo}' alt='${marzi.livelink}' class='sImage' />
                 </button>
-                <button class='popBtn'>
+                <button class='popBtn flex'>
                     see source<img src='${marzi.sourcelogo}' alt='${marzi.sourcelink}' class='sImage' />
                 </button>
             </div>
