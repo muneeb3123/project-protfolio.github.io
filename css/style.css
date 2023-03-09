@@ -366,6 +366,17 @@ nav #mylogo {
   color: white;
 }
 
+#error-msg {
+  background-color: blanchedalmond;
+  color: black;
+  text-align: center;
+  padding: 8px;
+  border-radius: 8px;
+  border: 2px solid black;
+  display: none;
+  font-size: 1.5rem;
+}
+
 .link {
   padding: 13px;
   gap: 10px;

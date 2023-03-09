@@ -20,3 +20,17 @@ menuItem.forEach(
     menuItem.addEventListener('click', toggleMenu);
   },
 );
+
+const form = document.querySelector('#form-contact');
+const email = document.querySelector('#user-email');
+const error = document.querySelector('#error-msg');
+form.addEventListener('submit', (event) => {
+  if (email.value.toLowerCase() !== email.value) {
+    error.innerHTML = 'Email must be in Lowercase';
+    event.preventDefault();
+    error.style.display = 'block';
+  } else {
+    error.innerHTML = '';
+    error.display.style = 'none';
+  }
+});
