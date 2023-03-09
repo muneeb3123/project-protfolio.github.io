@@ -134,22 +134,22 @@
           </div>
         </div>
       </section>
-
     <section id="Contact" class="container">
         <div class="contact-info">
+          <span class="flex" id="error-msg"></span>
             <h2 class="container-header">contact me</h2>
             <p class="container-text">
                 If you have an application you are interested in developing, a
                 feature that you need built or a project that needs coding. I’d love
                 to help with it
             </p>
-        </div>
-
-        <form method="POST" action="https://formspree.io/f/xpzedjlw" class="contact-form">
+          </div>
+        <form id="form-contact" method="POST" action="https://formspree.io/f/xpzedjlw" class="contact-form">
             <input type="text" name="name" placeholder="Muneeb"  maxlength="30" required>
             <input
                 type="email"
                 name="email"
+                id="user-email"
                 placeholder="example@gmail.com" required
             >
             <textarea
