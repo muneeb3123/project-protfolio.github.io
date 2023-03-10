@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -145,7 +144,7 @@
             </p>
           </div>
         <form id="form-contact" method="POST" action="https://formspree.io/f/xpzedjlw" class="contact-form">
-            <input type="text" name="name" placeholder="Muneeb"  maxlength="30" required>
+            <input id="user-name" type="text" name="name" placeholder="Muneeb"  maxlength="30" required>
             <input
                 type="email"
                 name="email"
@@ -153,7 +152,7 @@
                 placeholder="example@gmail.com" required
             >
             <textarea
-                name="message" class="center-placeholder" maxlength="500" placeholder="Write your message here" required
+               id="user-message" name="message" class="center-placeholder" maxlength="500" placeholder="Write your message here" required
             ></textarea>
             <button class="btn" type="submit" >Get in Touch</button>
         </form>
@@ -165,6 +164,7 @@
     <section class="modal modal-hid" id="modal"></section>
     <script src="./js/main.js"></script>
     <script src="./js/model.js" type="module"></script>
+    <script src="./js/local-storage.js" type="module"></script>
 
 </body>
 
