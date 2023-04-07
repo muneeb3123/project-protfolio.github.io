@@ -65,12 +65,16 @@ const displayModal = (marzi) => {
                 <img src='${marzi.sep}' alt='sep' class='sep' />
             </div>
             <div class='smBtn flex'>
-                <button class='popBtn flex'>
-                    see live<img src='${marzi.livelogo}' alt='${marzi.livelink}' class='sImage' />
-                </button>
-                <button class='popBtn flex'>
-                    see source<img src='${marzi.sourcelogo}' alt='${marzi.sourcelink}' class='sImage' />
-                </button>
+            <button class='popBtn flex'>
+            <a href='${marzi.livelink}' target='_blank'>
+                see live <img src='${marzi.livelogo}' class='sImage' />
+            </a>
+            <button class='popBtn flex'>
+            <a href='${marzi.sourcelink}' target='_blank'>
+                see source <img src='${marzi.sourcelogo}' alt='Source Logo' class='sImage' />
+            </a>
+        </button>
+        
             </div>
         </div>
     </div>`;

@@ -64,6 +64,8 @@ body {
 
 .projectImage {
   padding-top: 16px;
+  display: flex;
+  justify-content: center;
 }
 
 .paraText {
@@ -234,6 +236,7 @@ body {
 @media (min-width: 1150px) {
   .image {
     height: 47vh;
+    width: 50%;
   }
 
   .paraText {
