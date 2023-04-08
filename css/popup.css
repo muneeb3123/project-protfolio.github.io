@@ -19,7 +19,7 @@ body {
   height: 94%;
   overflow-y: scroll;
   overflow-x: hidden;
-  padding: 18px 16px 0;
+  padding: 32px 39px;
   border-radius: 16px;
 }
 
@@ -159,7 +159,7 @@ body {
 
 @media (min-width: 460px) {
   .popup {
-    width: 81%;
+    width: 60%;
   }
 }
 
@@ -235,8 +235,7 @@ body {
 
 @media (min-width: 1150px) {
   .image {
-    height: 47vh;
-    width: 50%;
+    height: 54vh;
   }
 
   .paraText {

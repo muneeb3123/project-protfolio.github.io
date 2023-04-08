@@ -635,7 +635,7 @@ nav #mylogo {
 @media (min-width: 768px) {
   .Box {
     flex-direction: row;
-    width: 90%;
+    width: 80%;
     margin: auto;
   }
 
@@ -673,8 +673,13 @@ nav #mylogo {
   }
 
   .box-image {
+    transform: translate(1.2);
     height: min(448px, 48vw);
     width: min(376px, 41vw);
+  }
+
+  .box-image:hover {
+    transform: scale(1.05);
   }
 
   .Box > .content,
