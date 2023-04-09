@@ -3,6 +3,16 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #6070ff;
+}
+
+.popBtn:hover a {
+  color: white;
+}
+
+
 .flex {
   display: flex;
 }
@@ -130,7 +140,6 @@ body {
 
 .popBtn:hover {
   background-color: #6070ff;
-  color: white;
 }
 
 .frame {

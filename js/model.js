@@ -69,6 +69,7 @@ const displayModal = (marzi) => {
             <a href='${marzi.livelink}' target='_blank'>
                 see live <img src='${marzi.livelogo}' class='sImage' />
             </a>
+            </button>
             <button class='popBtn flex'>
             <a href='${marzi.sourcelink}' target='_blank'>
                 see source <img src='${marzi.sourcelogo}' alt='Source Logo' class='sImage' />
