@@ -1,6 +1,6 @@
 const projectData = [
   {
-    snapshot: 'req/myimage3.png',
+    snapshot: 'req/awesome3.jpeg',
     projectname: 'Awesome-Books',
     technologies: ['HTML', 'CSS', 'JAVASCRIPT', 'Github', 'Ruby', 'Bootstrap'],
     dot: 'req/dot.png',
@@ -12,7 +12,7 @@ const projectData = [
     sep: 'req/sep.png',
     livelogo: 'req/live-icon.svg',
     sourcelogo: 'req/github-blue.svg',
-    livelink: 'https://muneeb3123.github.io/awesome-Books/',
+    livelink: 'https://effervescent-heliotrope-8467a7.netlify.app/',
     sourcelink: 'https://github.com/muneeb3123/awesome-Books',
   },
   {
