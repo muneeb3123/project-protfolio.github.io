@@ -8,11 +8,6 @@ a {
   color: #6070ff;
 }
 
-.popBtn:hover a {
-  color: white;
-}
-
-
 .flex {
   display: flex;
 }
@@ -140,6 +135,14 @@ a {
 
 .popBtn:hover {
   background-color: #6070ff;
+}
+
+.popBtn:hover a {
+  color: white;
+}
+
+.popBtn:hover img {
+  filter: invert(80%)
 }
 
 .frame {
