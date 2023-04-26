@@ -7,7 +7,7 @@ const projectData = [
     para: 'The web application being presented here is a highly functional and user-friendly platform that empowers users to create and manage their own personal book lists. Built using a combination of HTML, CSS, and JavaScript',
     frame: ['Muneeb', 'Back End Dev', '2015'],
     smBtnText: 'See Project',
-    popimage: 'req/myimagep.png',
+    popimage: 'req/all.jpeg',
     disdes: `The web application being presented here is a highly functional and user-friendly platform that empowers users to create and manage their own personal book lists. Built using a combination of HTML, CSS, and JavaScript`,
     sep: 'req/sep.png',
     livelogo: 'req/live-icon.svg',
