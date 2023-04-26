@@ -309,6 +309,11 @@ nav #mylogo {
   display: inline-block;
 }
 
+.link-div {
+  display: flex;
+  gap: 20px;
+}
+
 .resume {
   color: #396df2;
   font-size: 17px;
