@@ -146,14 +146,14 @@ nav #mylogo {
   margin: 0;
 }
 
+.menue-icon {
+  position: relative;
+}
+
 .menue-icon:hover {
   transform: scale(1.2);
   transition-duration: 0.5s;
   color: red;
-}
-
-.menue-icon {
-  position: relative;
 }
 
 .menue-icon::before {

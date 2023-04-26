@@ -142,7 +142,7 @@ a {
 }
 
 .popBtn:hover img {
-  filter: invert(80%)
+  filter: invert(80%);
 }
 
 .frame {
