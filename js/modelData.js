@@ -1,85 +1,67 @@
 const projectData = [
   {
-    snapshot: 'req/awesome3.jpeg',
-    projectname: 'Awesome-Books',
+    snapshot: 'req/Weather.png',
+    projectname: 'Weather360',
     technologies: ['HTML', 'CSS', 'JAVASCRIPT', 'Github', 'Ruby', 'Bootstrap'],
     dot: 'req/dot.png',
-    para: 'The web application being presented here is a highly functional and user-friendly platform that empowers users to create and manage their own personal book lists. Built using a combination of HTML, CSS, and JavaScript',
+    para: 'Welcome to Weather360, a robust web application that offers precise weather information for cities worldwide. Weather360 enables you to effortlessly access up-to-date weather conditions, forecasts, and other pertinent details for any location across the globe. This document will walk you through the installation procedure and present an outline of the applications existing features, along with some thrilling future enhancements.',
     frame: ['Muneeb', 'Back End Dev', '2015'],
     smBtnText: 'See Project',
-    popimage: 'req/all.jpeg',
-    disdes: `The web application being presented here is a highly functional and user-friendly platform that empowers users to create and manage their own personal book lists. Built using a combination of HTML, CSS, and JavaScript`,
+    popimage: 'req/Weather.png',
+    disdes: `Welcome to Weather360, a robust web application that offers precise weather information for cities worldwide. Weather360 enables you to effortlessly access up-to-date weather conditions, forecasts, and other pertinent details for any location across the globe. This document will walk you through the installation procedure and present an outline of the application's existing features, along with some thrilling future enhancements.`,
     sep: 'req/sep.png',
     livelogo: 'req/live-icon.svg',
     sourcelogo: 'req/github-blue.svg',
-    livelink: 'https://effervescent-heliotrope-8467a7.netlify.app/',
-    sourcelink: 'https://github.com/muneeb3123/awesome-Books',
+    livelink: 'https://shimmering-heliotrope-f0efd9.netlify.app/',
+    sourcelink: 'https://github.com/muneeb3123/weather-app',
   },
   {
-    snapshot: 'req/multi.png',
-    projectname: 'Tonic',
+    snapshot: 'req/Bookstore.png',
+    projectname: 'Bookstore',
     technologies: ['HTML', 'CSS', 'JAVASCRIPT', 'Github', 'Ruby', 'Bootstrap'],
     dot: 'req/dot.png',
-    para: 'A daily selection Of privately personalized reads; no accounts or sign-ups',
+    para: 'The Bookstore project is a web application built using React. It provides the foundation for a Bookstore website, allowing users to view and manage a collection of books. The project utilizes React Router V6 for client-side routing.',
     frame: ['CANOPY', 'Back End Dev', '2015'],
     smBtnText: 'See Project',
-    popimage: 'req/poppic.svg',
-    disdes: `Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industrys standard dummy text
-        ever since the 1500s, when an unknown printer took a galley of type
-        and scrambled it 1960s with the releaLorem Ipsum is simply dummy
-        text of the printing and typesetting industry. Lorem Ipsum has been
-        the industrys standard dummy text ever since the 1500s, when an
-        unknown printer took`,
+    popimage: 'req/Bookstore.png',
+    disdes: `The Bookstore project is a web application built using React. It provides the foundation for a Bookstore website, allowing users to view and manage a collection of books. The project utilizes React Router V6 for client-side routing.`,
     sep: 'req/sep.png',
     livelogo: 'req/live-icon.svg',
     sourcelogo: 'req/github-blue.svg',
-    livelink: 'https://muneeb3123.github.io/project-protfolio.github.io/ ',
-    sourcelink: 'https://github.com/muneeb3123/project-protfolio.github.io',
+    livelink: 'https://effortless-haupia-07a915.netlify.app',
+    sourcelink: 'https://github.com/muneeb3123/react-bookstore',
   },
   {
-    snapshot: 'req/tonic_2.png',
-    projectname: 'Tonic',
+    snapshot: 'req/Capstone.png',
+    projectname: 'Movie fusion',
     technologies: ['HTML', 'CSS', 'JAVASCRIPT', 'Github', 'Ruby', 'Bootstrap'],
     dot: 'req/dot.png',
-    para: 'A daily selection Of privately personalized reads; no accounts or sign-ups',
+    para: 'FilmFussion is a web-based platform that provides a comprehensive database of TV shows and movies. The website allows users to rate and comment on movies, share their opinions and recommendations, and interact with other members of the community.',
     frame: ['CANOPY', 'Back End Dev', '2015'],
     smBtnText: 'See Project',
-    popimage: 'req/poppic.svg',
-    disdes: `Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industrys standard dummy text
-        ever since the 1500s, when an unknown printer took a galley of type
-        and scrambled it 1960s with the releaLorem Ipsum is simply dummy
-        text of the printing and typesetting industry. Lorem Ipsum has been
-        the industrys standard dummy text ever since the 1500s, when an
-        unknown printer took`,
+    popimage: 'req/Capstone.png',
+    disdes: `FilmFussion is a web-based platform that provides a comprehensive database of TV shows and movies. The website allows users to rate and comment on movies, share their opinions and recommendations, and interact with other members of the community.`,
     sep: 'req/sep.png',
     livelogo: 'req/live-icon.svg',
     sourcelogo: 'req/github-blue.svg',
-    livelink: 'https://muneeb3123.github.io/project-protfolio.github.io/ ',
-    sourcelink: 'https://github.com/muneeb3123/project-protfolio.github.io',
+    livelink: 'https://gregarious-malasada-255b5d.netlify.app',
+    sourcelink: 'https://github.com/muneeb3123/capstone-javascript',
   },
   {
-    snapshot: 'req/multi_2.png',
-    projectname: 'Tonic',
+    snapshot: 'req/Calculator.png',
+    projectname: 'Calculator',
     technologies: ['HTML', 'CSS', 'JAVASCRIPT', 'Github', 'Ruby', 'Bootstrap'],
     dot: 'req/dot.png',
-    para: 'A daily selection Of privately personalized reads; no accounts or sign-ups',
+    para: 'In this project i will create a calculator which perform mathematics operations.A website with three dynamic pages. The home page extends a warm welcome, the calculator page empowers you to perform arithmetic operations effortlessly, and the quote page fetches random quotes using React and React Router. Experience the convenience of math calculations and immerse yourself in a world of inspiration.',
     frame: ['CANOPY', 'Back End Dev', '2015'],
     smBtnText: 'See Project',
-    popimage: 'req/poppic.svg',
-    disdes: `Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industrys standard dummy text
-        ever since the 1500s, when an unknown printer took a galley of type
-        and scrambled it 1960s with the releaLorem Ipsum is simply dummy
-        text of the printing and typesetting industry. Lorem Ipsum has been
-        the industrys standard dummy text ever since the 1500s, when an
-        unknown printer took`,
+    popimage: 'req/Calculator.png',
+    disdes: `In this project i will create a calculator which perform mathematics operations.A website with three dynamic pages. The home page extends a warm welcome, the calculator page empowers you to perform arithmetic operations effortlessly, and the quote page fetches random quotes using React and React Router. Experience the convenience of math calculations and immerse yourself in a world of inspiration.`,
     sep: 'req/sep.png',
     livelogo: 'req/live-icon.svg',
     sourcelogo: 'req/github-blue.svg',
-    livelink: 'https://muneeb3123.github.io/project-protfolio.github.io/ ',
-    sourcelink: 'https://github.com/muneeb3123/project-protfolio.github.io',
+    livelink: 'https://cosmic-marigold-cfd2d9.netlify.app/',
+    sourcelink: 'https://github.com/muneeb3123/math-magician',
   },
 ];
 export default projectData;
