@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/hero.css">
+    <link rel="stylesheet" href="/css/animation.css">
+    <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/popup.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Muneeb's protfolio</title>
 </head>
 <body>
@@ -17,7 +21,7 @@
     <header>
         <nav>
             <div class="Navbar">
-                <a href="#"><img src="req/mylogo.png" alt="logo" id="mylogo"></a>
+                <a href="#"><h3 class="nav-logo">Muneeb <span>Rehman</span></h3></a>
                 <!--Nav bar button-->
                 <button class="hamburger">
                     <i class="menuIcon material-icons">menu</i>
@@ -30,44 +34,35 @@
                     <li><a class="menuItem" href="#Contact">Contact</a></li>
                   </ul>
                 <ul class="menue">
-                  <li><a class="menue-icon" href="#works">Portfolio</a></li>
-                  <li><a class="menue-icon" href="#about-section">About</a></li>
-                  <li><a class="menue-icon" href="#Contact">Contact</a></li>
+                  <li><a style="--i:1;" class="menue-icon" href="#works">Portfolio</a></li>
+                  <li><a style="--i:2;" class="menue-icon" href="#about-section">About</a></li>
+                  <li><a style="--i:3;" class="menue-icon" href="#Contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-    <!--This is Headline-->
-    <section class="headline">
-        <h1 id="Headline-Title">I’m Muneeb <br>
-            Glad to see you!</h1>
-        <p id="Headline-Text">I’m a software developer! I can help you build a product , feature or website Look through
-            some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate
-            to contact me. </p>
-        <div class="socialmedia">
-            <h2 class="helpingtext">LET'S CONNECT</h2>
-            <!--social media icons-->
-            <div class="belowtext">
-                <ul>
-                    <li>
-                        <a href="#"><img src="req/twitter.png" alt="twitter"></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="req/Linkedin.png" alt="linkedin"></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="req/M.png" alt="M"></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="req/Github.png" alt="Github"></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="req/V.png" alt="V"></a>
-                    </li>
-                </ul>
+
+    <!--Hero page-->
+    <section class="hero-page">
+        <div class="hero-header">
+            <h3>Hello, It's Me</h3>
+            <h1>Muneeb ur Rehman</h1> 
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae recusandae rerum perspiciatis non! Saepe, tenetur!</p>
+            <div class="social-media">
+                <a style="--i:4;" href="#"><i class='bx bxl-twitter'></i></a>
+                <a style="--i:5;" href="#"><i class='bx bxl-linkedin'></i></a>
+                <a style="--i:6;" href="#"><i class='bx bxl-facebook'></i></a>
+                <a style="--i:7;" href="#"><i class='bx bxl-github'></i></a>
             </div>
+            <a href="#" class="btn-cv">Download CV</a>
+        </div>
+        <div class="home-img">
+          <img src="req/home.png" alt="home-img">
         </div>
     </section>
+
+    <!-- End hero Page -->
 
     <section id="works" class="Grid-boxes">
     </section>
@@ -163,6 +158,8 @@
     </section>
     <section class="modal modal-hid" id="modal"></section>
     <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <Script src="./js/script.js"></Script>
     <script src="./js/model.js" type="module"></script>
     <script src="./js/localstorage.js" type="module"></script>
 
