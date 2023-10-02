@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/animation.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/popup.css">
+    <link rel="stylesheet" href="/css/projects.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
@@ -17,17 +18,16 @@
     <title>Muneeb's protfolio</title>
 </head>
 <body>
-    <!--This is the header section-->
+
+    <!--Header-->
     <header>
         <nav>
             <div class="Navbar">
                 <a href="#"><h3 class="nav-logo">Muneeb <span>Rehman</span></h3></a>
-                <!--Nav bar button-->
                 <button class="hamburger">
                     <i class="menuIcon material-icons">menu</i>
                     <i class="closeIcon material-icons">close</i>
                   </button>
-                
                 <ul class="menu">
                     <li><a class="menuItem" href="#works">Portfolio</a></li>
                     <li><a class="menuItem" href="#about-section">About</a></li>
@@ -41,6 +41,8 @@
             </div>
         </nav>
     </header>
+
+    <!-- Header End -->
 
     <!--Hero page-->
     <section class="hero-page">
@@ -64,8 +66,20 @@
 
     <!-- End hero Page -->
 
-    <section id="works" class="Grid-boxes">
+    <!-- Dynamic Projects -->
+
+    <section id="works" class="projects">
+      <h1 class="project-header">My  <span>Projects</span></h1>
+      <div class="grid-boxes">
+      </div>
+      <div class="see-more">
+        <a href="#" class="more-btn">See More</a>
+      </div>
     </section>
+
+    <!-- End Projects -->
+
+    <!-- About -->
     <section id="about-section">
         <div class="about">
           <div class="about-desktop">
@@ -128,6 +142,10 @@
           </div>
         </div>
       </section>
+
+    <!-- End About -->
+
+    <!-- Contact -->
     <section id="Contact" class="container">
         <div class="contact-info">
           <span class="flex" id="error-msg"></span>
@@ -157,6 +175,9 @@
         </div>
     </section>
     <section class="modal modal-hid" id="modal"></section>
+
+      <!-- End Contact  -->
+
     <script src="./js/main.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <Script src="./js/script.js"></Script>

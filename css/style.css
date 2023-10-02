@@ -11,7 +11,7 @@ li {
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: #20242D;
   margin: 0;
   overflow-x: hidden;
 }
@@ -178,13 +178,6 @@ nav #mylogo {
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 114px 24px 114px 24px;
-}
-
-.Grid-boxes {
-  display: grid;
-  grid-template-rows: auto auto auto auto auto;
-  padding: 114px 25px 31px 25px;
-  row-gap: 90px;
 }
 
 .Box {
@@ -410,7 +403,7 @@ nav #mylogo {
 }
 
 .about {
-  background-color: #fff;
+  background-color: #20242D;
   border-radius: 0 80px 0 0;
   display: flex;
   flex-direction: column;
