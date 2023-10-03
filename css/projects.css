@@ -1,6 +1,7 @@
 .projects {
-    padding: 0 10% 100px;
+    padding: 0 10% 50px;
     border: 1px solid #30353F;
+    background-color: #323846;
 }
 
 .projects h1 {
@@ -30,14 +31,12 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     place-items: center;
-    gap: 46px;
-    /* animation: floatImage 4s ease-in-out infinite; */
+    gap: 26px;
     animation-delay: 3s;
   }
 
   .box {
     box-shadow: 0 0 10px #0ef;
-    background-color: #30353f;
     padding: 20px 10px 10px 10px;
     border-radius: 20px;
     height: 250px;
@@ -284,6 +283,6 @@
         }
 
         .projects {
-          padding: 0 15% 100px;
+          padding: 0 15% 50px;
       }
     }
