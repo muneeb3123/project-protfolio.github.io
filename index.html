@@ -5,72 +5,240 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/hero.css">
+    <link rel="stylesheet" href="/css/animation.css">
+    <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/popup.css">
+    <link rel="stylesheet" href="/css/projects.css">
+    <link rel="stylesheet" href="/css/skills.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Muneeb's protfolio</title>
 </head>
 <body>
-    <!--This is the header section-->
+
+    <!--Header-->
     <header>
         <nav>
             <div class="Navbar">
-                <a href="#"><img src="req/mylogo.png" alt="logo" id="mylogo"></a>
-                <!--Nav bar button-->
+                <a href="#"><h3 class="nav-logo">Muneeb <span>Rehman</span></h3></a>
                 <button class="hamburger">
                     <i class="menuIcon material-icons">menu</i>
                     <i class="closeIcon material-icons">close</i>
                   </button>
-                
                 <ul class="menu">
                     <li><a class="menuItem" href="#works">Portfolio</a></li>
                     <li><a class="menuItem" href="#about-section">About</a></li>
                     <li><a class="menuItem" href="#Contact">Contact</a></li>
                   </ul>
                 <ul class="menue">
-                  <li><a class="menue-icon" href="#works">Portfolio</a></li>
-                  <li><a class="menue-icon" href="#about-section">About</a></li>
-                  <li><a class="menue-icon" href="#Contact">Contact</a></li>
+                  <li><a style="--i:1;" class="menue-icon" href="#works">Portfolio</a></li>
+                  <li><a style="--i:2;" class="menue-icon" href="#about-section">About</a></li>
+                  <li><a style="--i:3;" class="menue-icon" href="#Contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-    <!--This is Headline-->
-    <section class="headline">
-        <h1 id="Headline-Title">I’m Muneeb <br>
-            Glad to see you!</h1>
-        <p id="Headline-Text">I’m a software developer! I can help you build a product , feature or website Look through
-            some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate
-            to contact me. </p>
-        <div class="socialmedia">
-            <h2 class="helpingtext">LET'S CONNECT</h2>
-            <!--social media icons-->
-            <div class="belowtext">
-                <ul>
-                    <li>
-                        <a href="#"><img src="req/twitter.png" alt="twitter"></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="req/Linkedin.png" alt="linkedin"></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="req/M.png" alt="M"></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="req/Github.png" alt="Github"></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="req/V.png" alt="V"></a>
-                    </li>
-                </ul>
+
+    <!-- Header End -->
+
+    <!--Hero page-->
+    <section class="hero-page">
+        <div class="hero-header">
+            <h3>Hello, It's Me</h3>
+            <h1>Muneeb ur Rehman</h1> 
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae recusandae rerum perspiciatis non! Saepe, tenetur!</p>
+            <div class="social-media">
+                <a style="--i:4;" href="#"><i class='bx bxl-twitter'></i></a>
+                <a style="--i:5;" href="#"><i class='bx bxl-linkedin'></i></a>
+                <a style="--i:6;" href="#"><i class='bx bxl-facebook'></i></a>
+                <a style="--i:7;" href="#"><i class='bx bxl-github'></i></a>
             </div>
+            <a href="#" class="btn-cv">Download CV</a>
+        </div>
+        <div class="home-img">
+          <img src="req/home.png" alt="home-img">
         </div>
     </section>
 
-    <section id="works" class="Grid-boxes">
+    <!-- End hero Page -->
+
+    <!-- Dynamic Projects -->
+
+    <section id="works" class="projects">
+      <h1 class="project-header">My  <span>Projects</span></h1>
+      <div class="grid-boxes">
+      </div>
+      <div class="see-more">
+        <a href="#" class="more-btn">See More</a>
+      </div>
     </section>
+
+    <!-- End Projects -->
+
+    <!-- SKILLS -->
+
+    <section class="skills-tools">
+      <div class="skillHd">
+        <h1 class="skill-header">My <span>Skills</span></h1>
+        <p class="skill-text">For those who know what they’re looking for..</p>
+      </div>
+    
+      <div class="skills-container">
+        <div class="single-skill">
+          <div class="skill-icon">
+            <img src="req/html-5.png" alt="HTML" />
+          </div>
+          <div class="skill-name">
+            <h3>HTML</h3>
+          </div>
+        </div>
+    
+        <div class="single-skill">
+          <div class="skill-icon">
+            <img src="req/javascript.png" alt="JavaScript" />
+          </div>
+          <div class="skill-name">
+            <h3>JavaScript</h3>
+          </div>
+        </div>
+    
+        <div class="single-skill">
+          <div class="skill-icon">
+            <img src="req/css-3.png" alt="CSS" />
+          </div>
+          <div class="skill-name">
+            <h3>CSS</h3>
+          </div>
+        </div>
+    
+        <div class="single-skill">
+          <div class="skill-icon">
+            <img src="req/react.png" alt="React" />
+          </div>
+          <div class="skill-name">
+            <h3>React</h3>
+          </div>
+        </div>
+    
+        <div class="single-skill">
+          <div class="skill-icon">
+            <img src="req/postgresql.png" alt="PostgreSQL" />
+          </div>
+          <div class="skill-name">
+            <h3>PostgreSQL</h3>
+          </div>
+        </div>
+    
+        <div class="single-skill">
+          <div class="skill-icon">
+            <img src="req/ruby.png" alt="Ruby" />
+          </div>
+          <div class="skill-name">
+            <h3>Ruby</h3>
+          </div>
+        </div>
+    
+        <div class="single-skill">
+          <div class="skill-icon">
+            <img src="req/ruby-logo.png" alt="Ruby on Rails" />
+          </div>
+          <div class="skill-name">
+            <h3>Ruby on Rails</h3>
+          </div>
+        </div>
+    
+        <div class="single-skill">
+          <div class="skill-icon">
+            <img src="req/github.png" alt="GitHub" />
+          </div>
+          <div class="skill-name">
+            <h3>GitHub</h3>
+          </div>
+        </div>
+    
+        <div class="single-skill">
+          <div class="skill-icon">
+            <img src="req/bootstrap-framework-logo.png" alt="Bootstrap" />
+          </div>
+          <div class="skill-name">
+            <h3>Bootstrap</h3>
+          </div>
+        </div>
+    
+        <div class="single-skill">
+          <div class="skill-icon">
+            <img src="req/nodejs.png" alt="Node.js" />
+          </div>
+          <div class="skill-name">
+            <h3>Node.js</h3>
+          </div>
+        </div>
+    
+        <div class="single-skill">
+          <div class="skill-icon">
+            <img src="req/netlify.png" alt="Netlify" />
+          </div>
+          <div class="skill-name">
+            <h3>Netlify</h3>
+          </div>
+        </div>
+    
+        <div class="single-skill">
+          <div class="skill-icon">
+            <img src="req/redux.png" alt="Redux" />
+          </div>
+          <div class="skill-name">
+            <h3>Redux</h3>
+          </div>
+        </div>
+    
+        <div class="single-skill">
+          <div class="skill-icon">
+            <img src="req/time-management.png" alt="Time Management" />
+          </div>
+          <div class="skill-name">
+            <h3>Time Management</h3>
+          </div>
+        </div>
+    
+        <div class="single-skill">
+          <div class="skill-icon">
+            <img src="req/creativity.png" alt="Creativity" />
+          </div>
+          <div class="skill-name">
+            <h3>Creativity</h3>
+          </div>
+        </div>
+    
+        <div class="single-skill">
+          <div class="skill-icon">
+            <img src="req/teamwork.png" alt="Team Work" />
+          </div>
+          <div class="skill-name">
+            <h3>Team Work</h3>
+          </div>
+        </div>
+    
+        <div class="single-skill">
+          <div class="skill-icon">
+            <img src="req/problem-solving.png" alt="Problem Solving" />
+          </div>
+          <div class="skill-name">
+            <h3>Problem Solving</h3>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+    <!-- End Skills -->
+
+    <!-- About -->
     <section id="about-section">
         <div class="about">
           <div class="about-desktop">
@@ -113,7 +281,6 @@
                   <p class="drop-text" >JavaScript</p>
                 </li>
                 <li class="drop-li">
-                  <img src="req/html.png" alt="html" class="mini-icon"/>
                   <p class="drop-text">html</p>
                 </li>
                 <li class="drop-li">
@@ -133,6 +300,10 @@
           </div>
         </div>
       </section>
+
+    <!-- End About -->
+
+    <!-- Contact -->
     <section id="Contact" class="container">
         <div class="contact-info">
           <span class="flex" id="error-msg"></span>
@@ -162,7 +333,12 @@
         </div>
     </section>
     <section class="modal modal-hid" id="modal"></section>
+
+      <!-- End Contact  -->
+
     <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <Script src="./js/script.js"></Script>
     <script src="./js/model.js" type="module"></script>
     <script src="./js/localstorage.js" type="module"></script>
 

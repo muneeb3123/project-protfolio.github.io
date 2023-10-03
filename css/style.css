@@ -1,6 +1,9 @@
 * {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 li {
@@ -8,7 +11,7 @@ li {
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: #20242D;
   margin: 0;
   overflow-x: hidden;
 }
@@ -28,15 +31,6 @@ header {
   height: 2.5px;
   margin: 4px;
   border-radius: 2px;
-}
-
-.Navbar {
-  display: flex;
-  flex-direction: row;
-  padding: 24px;
-  justify-content: space-between;
-  align-items: center;
-  height: 85px;
 }
 
 .menu {
@@ -146,43 +140,6 @@ nav #mylogo {
   margin: 0;
 }
 
-.menue-icon {
-  position: relative;
-}
-
-.menue-icon:hover {
-  transform: scale(1.2);
-  transition-duration: 0.5s;
-  color: red;
-}
-
-.menue-icon::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: -5px;
-  left: 0;
-  background-color: #666;
-  visibility: hidden;
-  transform: scaleX(0);
-  transition: all 0.5s ease-in-out 0s;
-}
-
-.menue-icon:hover::before {
-  visibility: visible;
-  transform: scaleX(1);
-}
-
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 #Headline-Title:hover {
   color: #6070ff;
@@ -221,13 +178,6 @@ nav #mylogo {
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 114px 24px 114px 24px;
-}
-
-.Grid-boxes {
-  display: grid;
-  grid-template-rows: auto auto auto auto auto;
-  padding: 114px 25px 31px 25px;
-  row-gap: 90px;
 }
 
 .Box {
@@ -453,7 +403,7 @@ nav #mylogo {
 }
 
 .about {
-  background-color: #fff;
+  background-color: #20242D;
   border-radius: 0 80px 0 0;
   display: flex;
   flex-direction: column;
