@@ -1,5 +1,5 @@
 .skills-tools {
-    padding: 20px 10%;
+    padding: 10%;
     border: 1px solid #30353F;
 }
 
@@ -81,7 +81,7 @@
 
 @media (min-width: 1700px) {
     .skills-tools {
-        padding: 20px 15%;
+        padding: 40px 15%;
     }
 
     .single-skill {
