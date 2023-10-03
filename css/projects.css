@@ -1,5 +1,5 @@
 .projects {
-    padding: 0 10% 50px;
+    padding: 10%;
     border: 1px solid #30353F;
     background-color: #323846;
 }
@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     color: #fff;
-    margin:50px 0;
+    margin-bottom: 50px;
     font-size: 2.5rem;
     font-weight: 900;
     opacity: 0;
@@ -187,10 +187,6 @@
     .grid-boxes {
       grid-template-columns: repeat(2, 1fr);
     }
-
-    .projects h1 {
-        font-size: 3rem;
-       }
   }
 
     @media (min-width: 1024px) {
@@ -283,6 +279,6 @@
         }
 
         .projects {
-          padding: 0 15% 50px;
+          padding: 5% 15%;
       }
     }
