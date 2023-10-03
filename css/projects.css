@@ -1,5 +1,6 @@
 .projects {
     padding: 0 10% 100px;
+    border: 1px solid #30353F;
 }
 
 .projects h1 {
@@ -8,6 +9,7 @@
     color: #fff;
     margin:50px 0;
     font-size: 2.5rem;
+    font-weight: 900;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
     animation-delay: .7s;
@@ -280,29 +282,8 @@
             height: auto;
           }
         }
-    }
 
-    @media (min-width: 1700px) {
-      .box {
-          width: 450px;
-          height: 300px;
+        .projects {
+          padding: 0 15% 100px;
       }
-
-      .box-container:hover .project-content{
-        animation: slideUp .3s forwards;
     }
-
-    @keyframes slideUp {
-        0% {
-          opacity: 0;
-          visibility: hidden;
-          transform: translateY(230%);
-        }
-        100% {
-          opacity: 1;
-          visibility: visible;
-          transform: translateY(130%);
-          height: auto;
-        }
-      }
-  }
