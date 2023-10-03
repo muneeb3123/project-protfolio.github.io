@@ -51,3 +51,9 @@
     transform: scaleX(1);
   }
     
+
+  @media (min-width: 1300px) {
+    .Navbar {
+      padding: 24px 15%;
+    }
+  }
