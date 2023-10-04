@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
     //     origin: 'bottom'
     // });
 
-    ScrollReveal().reveal('.contact-container, .box1', {
+    ScrollReveal().reveal('.contact-container, .box1, .skill-1', {
         origin: 'top',
         scale: 0.5, 
         distance: '0px'
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 
-    ScrollReveal().reveal('.first, .skills-container', {
+    ScrollReveal().reveal('.first', {
         origin: 'left'
     });
     ScrollReveal().reveal('.myself-paragraph', {
