@@ -6,7 +6,7 @@ document.querySelector('.grid-boxes').innerHTML = modeldata
   .map(
     (data, index) => `
     <div class="box-container ${index >= displayCount ? 'hidden' : ''}">
-          <div id="box-${index}" class="box">
+          <div id="box-${index}" class="box box1">
             <div class="imgBx">
               <img src="${data.image}" alt="${data.projectname}" />
               <h2>${data.projectname}</h2>
