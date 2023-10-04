@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
     ScrollReveal({
-        reset: true,
         distance: '100px',
         duration: 2000,
         delay: 200
@@ -10,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
         origin: 'top'
     });
 
-    ScrollReveal().reveal('.btn-cv, .skills-container', {
+    ScrollReveal().reveal('.btn-cv', {
         origin: 'bottom'
     });
 
@@ -25,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 
-    ScrollReveal().reveal('.first', {
+    ScrollReveal().reveal('.first, .skills-container', {
         origin: 'left'
     });
     ScrollReveal().reveal('.myself-paragraph', {
