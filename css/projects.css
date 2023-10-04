@@ -11,9 +11,6 @@
     margin-bottom: 50px;
     font-size: 2.5rem;
     font-weight: 900;
-    opacity: 0;
-    animation: slideBottom 1s ease forwards;
-    animation-delay: .7s;
 }
 
 .projects h1 span {
@@ -32,19 +29,16 @@
     grid-template-columns: repeat(1, 1fr);
     place-items: center;
     gap: 26px;
-    animation-delay: 3s;
   }
 
   .box {
     box-shadow: 0 0 10px #0ef;
+    border: 1px solid #0ef;
     padding: 20px 10px 10px 10px;
     border-radius: 20px;
     height: 250px;
     width: 300px;
     transition: all .5s ease;
-    opacity: 0;
-    animation: zoomIn 1s ease forwards;
-    animation-delay: 1s;
   }
 
 
@@ -113,9 +107,6 @@
     font-size: 12px;
     letter-spacing: 1px;
     font-weight: 600;
-    opacity: 0;
-    animation: slideTop 1s ease forwards;
-    animation-delay: 2s;
   }
 
   .content-footer {

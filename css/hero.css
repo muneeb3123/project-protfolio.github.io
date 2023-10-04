@@ -90,9 +90,6 @@
     font-size: 12px;
     letter-spacing: 1px;
     font-weight: 600;
-    opacity: 0;
-    animation: slideTop 1s ease forwards;
-    animation-delay: 2s;
   }
   
   @media (min-width: 768px) {
@@ -156,9 +153,3 @@
     }
   }
     
-/* 
-  @media (min-width: 1700px) {
-    .home-img img {
-      margin-left: 133px;
-    }
-  }  */

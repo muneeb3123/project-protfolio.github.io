@@ -8,9 +8,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    opacity: 0;
-    animation: slideTop 1s ease forwards;
-    animation-delay: 2s;
 }
 
 .skillHd h1 {
@@ -52,9 +49,6 @@
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    opacity: 0;
-    animation: slideTop 1s ease forwards;
-    animation-delay: 1s;
 }
 
 .skill-name h3 {
