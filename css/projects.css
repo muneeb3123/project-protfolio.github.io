@@ -1,5 +1,5 @@
 .projects {
-    padding: 10%;
+    padding: 10% 20px;
     border: 1px solid #30353F;
     background-color: #323846;
 }
@@ -189,12 +189,16 @@
     }
   }
 
+  .projects {
+    padding: 10%;
+} 
+
     @media (min-width: 1024px) {
         .box {
             width: 400px;
             height: 300px;
             padding: 20px;
-        }
+        }     
 
         .box-container:hover .box {
             height: 430px;
@@ -229,6 +233,10 @@
         .grid-boxes {
             grid-template-columns: repeat(3, 1fr);
         }
+
+        .projects {
+          padding: 5% 15%;
+      } 
 
         .box {
             width: 300px;
@@ -277,8 +285,4 @@
             height: auto;
           }
         }
-
-        .projects {
-          padding: 5% 15%;
-      }
     }

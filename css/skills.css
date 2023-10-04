@@ -68,6 +68,10 @@
         height: 145px;
     }
 
+    .skills-tools {
+        padding: 10% 20px;
+    }
+
     .skill-icon img {
         width: 50px;
         height: 50px;
@@ -79,11 +83,13 @@
 
 }
 
-@media (min-width: 1700px) {
+@media (min-width: 1300px) {
     .skills-tools {
         padding: 5% 15%;
     }
+}
 
+@media (min-width: 1700px) {
     .single-skill {
         width: 148px;
         height: 148px;
