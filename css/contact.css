@@ -147,9 +147,9 @@ input:focus, textarea:focus {
     }
 
     .btn {
-        width: 150px;
+        width: 160px;
         height: 40px;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .willing h3 {
