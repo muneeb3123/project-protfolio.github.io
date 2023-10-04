@@ -38,7 +38,11 @@ document.querySelector('.grid-boxes').innerHTML = modeldata
   function adjustDisplayCount() {
     if (window.innerWidth >= 768 && window.innerWidth < 1300) {
       displayCount = 4;
-    } else {
+    } 
+    else if (window.innerWidth >= 1300) {
+      displayCount = 6;
+    }
+    else {
       displayCount = 3;
     }
     updateGrid();
