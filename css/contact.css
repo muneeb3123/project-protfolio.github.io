@@ -90,6 +90,22 @@ input:focus, textarea:focus {
     align-items: center;
 }
 
+.last .single-skill,.first .single-skill {
+    gap: 15px;
+    padding: 0 10px;
+}
+
+.last .single-skill .skill-name h3,.first .single-skill .skill-name h3 {
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.last .skill-icon img, .first .skill-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+
 .willing h3 {
     font-size: 1rem;
     color: #fff;

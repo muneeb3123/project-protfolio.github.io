@@ -60,6 +60,7 @@
 .skill-name h3 {
     font-size: 12px;
     color: #fff;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
