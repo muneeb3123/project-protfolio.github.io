@@ -149,7 +149,9 @@
 
  @media (max-width: 1024px) {
     .box-container:hover .project-content {
-        animation: slideUp 2s forwards;
+      opacity: 0;
+        animation: slideUp 1s forwards;
+        animation-delay: 1s;
        }
 
        .box-container:hover .box {
@@ -198,7 +200,9 @@
           }
 
         .box-container:hover .project-content{
+          opacity: 0;
             animation: slideUp 1s forwards;
+            animation-delay: 1s;
         }
 
         .project-technologies a {
@@ -235,7 +239,9 @@
         }
 
         .box-container:hover .project-content{
+          opacity: 0;
           animation: slideUp 1s forwards;
+          animation-delay: 1s;
       }
 
       @keyframes slideUp {
@@ -260,7 +266,9 @@
         }
 
         .box-container:hover .project-content{
+          opacity: 0;
           animation: slideUp .3s forwards;
+          animation-delay: 1s;
       }
 
       @keyframes slideUp {
