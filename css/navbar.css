@@ -1,39 +1,41 @@
-.Navbar {
+
+.header-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 10%;
+    background-color: var(--bg-color);
     display: flex;
-    flex-direction: row;
-    padding: 24px 10%;
-    justify-content: space-between;
     align-items: center;
-    background-color: #20242D;
+    justify-content: space-between;
+    z-index: 100;
   }
-  
-  .nav-logo {
-    font-size: 16px;
-    color: #fff;
-    opacity: 0;
-    animation: slideRight 1s ease forwards;
+
+  .header-menu .sticky {
+    border-bottom: .1rem solid rgba(0, 0, 0, .2);
   }
-  
-  .nav-logo span {
+
+  .logo {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-color);
+    cursor: default;
+  }
+
+  .logo span {
     color: #0ef;
   }
-  
-  .menue-icon {
+
+  .navbar a {
+    font-size: .9rem;
+    color: var(--text-color);
+    margin-left: 1.1rem;
+    transition: .3s;
     position: relative;
-    color: #fff;
-    display: inline-block;
-    opacity: 0;
-    animation: slideTop 1s ease forwards;
-    animation-delay: calc(.2s * var(--i));
   }
-  
-  .menue-icon:hover {
-    transform: scale(1.2);
-    transition-duration: 0.5s;
-    color: #0ef;
-  }
-  
-  .menue-icon::before {
+
+  .navbar a::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -45,15 +47,77 @@
     transform: scaleX(0);
     transition: all 0.5s ease-in-out 0s;
   }
-  
-  .menue-icon:hover::before {
+
+    
+  .navbar a:hover::before {
     visibility: visible;
     transform: scaleX(1);
   }
     
 
+  .navbar a:hover,
+  .navbar a.active  {
+    color: var(--main-color);
+    transition-duration: 0.5s;
+  } 
+
+  #menu-icon {
+    font-size: 2.2rem;
+    color: var(--text-color);
+    display: none;
+  }
+
+
+  @media (max-width: 767px) {
+    #menu-icon {
+      display: block;
+    }
+
+    .navbar {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      padding: 0 5%;
+      background-color: var(--bg-color);
+      border-top: .1rem solid rgba(0, 0 ,0, .2);
+      box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+      display: none;
+    }
+
+    .navbar.active {
+      display: block;
+    }
+
+    .navbar a {
+      display: block;
+      font-size: 1rem;
+      margin: 1.6rem 0;
+    }
+
+    .header-menu {
+      padding: 1rem 5%;
+    }
+  }
+
+  @media (min-width: 900px) {
+    .navbar a {
+      font-size: 1.2rem;
+      margin-left: 1.5rem;
+    }
+  }
+
   @media (min-width: 1300px) {
-    .Navbar {
-      padding: 24px 15%;
+    .navbar a {
+      font-size: 1.2rem;
+      margin-left: 3rem;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+    }
+
+    .header-menu {
+      padding: 2rem 15%;
     }
   }

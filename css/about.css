@@ -2,14 +2,13 @@
     background-color: #323846;
     width: 100%;
     height: 100%;
-    padding: 10% 20px;
+    padding: 10% 5%;
 }
 
 .myself-content {
     display: flex;
     flex-direction: column;
     gap: 50px;
-    padding: 0 15px;
 }
 
 .myselfHd {
@@ -22,7 +21,7 @@
 
 .myselfHd h2 {
     color: #fff;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin: 0;
     padding: 0;
 }

@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
         distance: '0px'
     });
 
-    ScrollReveal().reveal('.last, .project-header', {
+    ScrollReveal().reveal('.last, .works-div', {
         origin: 'right'
     });
 

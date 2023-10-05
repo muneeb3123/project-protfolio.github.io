@@ -7,13 +7,21 @@
 .contact-header {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.contact-header p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #9c9c9c;
 }
 
 .contact-header h2 {
     font-size: 2.5rem;
     font-weight: 700;
     color: #fff;
-    margin-bottom: 60px;
 }
 
 .contact-header span {
@@ -146,7 +154,7 @@ input:focus, textarea:focus {
 @media (max-width: 768px) {
 
     .contact-container {
-        padding: 10% 20px;
+        padding: 10% 5%;
     }
 
     input::placeholder, textarea::placeholder {
@@ -196,7 +204,7 @@ input:focus, textarea:focus {
     }
 
     .contact-container {
-        padding: 5% 15%;
+        padding: 5% 15% 8%;
     }
     
 }
