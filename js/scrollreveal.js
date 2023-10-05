@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
         delay: 200
     });
 
-    ScrollReveal().reveal(' .hero-header, .myselfHd, .skillHd, .container-header, .btn-cv', {
+    ScrollReveal().reveal(' .hero-header, .myselfHd, .skillHd, .contact-header , .btn-cv, .works-div', {
         origin: 'bottom',
     });
 
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
         distance: '0px'
     });
 
-    ScrollReveal().reveal('.last, .works-div', {
+    ScrollReveal().reveal('.last', {
         origin: 'right'
     });
 

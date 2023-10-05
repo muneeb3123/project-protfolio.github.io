@@ -49,7 +49,7 @@
     padding: 20px 10px 10px 10px;
     border-radius: 20px;
     height: 250px;
-    width: 300px;
+    width: 345px;
     transition: all .5s ease;
   }
 
@@ -73,7 +73,6 @@
     width: 100%;
     object-fit: contain;
     border-radius: 10px;
-    /* box-shadow: 0 0 10px #0ef; */
     position: relative;
   }
 
@@ -90,6 +89,7 @@
     overflow: hidden; 
     opacity: 0;
     transition: all 1s ease; 
+    opacity: 0;
     transform: translateY(230%);
   }
 
@@ -162,11 +162,11 @@
  @media (max-width: 1024px) {
     .box-container:hover .project-content {
       opacity: 0;
-        animation: slideUp 1s forwards;
+        animation: slideUp .3s forwards;
        }
 
        .box-container:hover .box {
-        height: 350px;
+        height: 380px;
         margin-top: 60px;
       }
 
@@ -179,10 +179,40 @@
         100% {
           opacity: 1;
           visibility: visible;
-          transform: translateY(90%);
+          transform: translateY(110%);
           height: auto;
         }
       }
+ }
+
+ @media (min-width: 623px) {
+
+  .grid-boxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .box {
+    width: 260px;
+    height: 220px;
+  }
+  .box-container:hover .project-content{
+    opacity: 0;
+      animation: slideUp .3s forwards;
+  }
+
+  @keyframes slideUp {
+      0% {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(230%);
+      }
+      100% {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(80%);
+        height: auto;
+      }
+    }
  }
 
   
@@ -192,11 +222,37 @@
     .projects {
       padding: 10%;
     }
-
-    .grid-boxes {
-      grid-template-columns: repeat(2, 1fr);
-    }
   } 
+
+  @media (min-width: 900px) {
+    .box {
+      width: 345px;
+      height: 255px;
+    }
+
+    .box-container:hover .box {
+      height: 390px;
+    }
+
+    .box-container:hover .project-content{
+      opacity: 0;
+        animation: slideUp .3s forwards;
+    }
+  
+    @keyframes slideUp {
+        0% {
+          opacity: 0;
+          visibility: hidden;
+          transform: translateY(230%);
+        }
+        100% {
+          opacity: 1;
+          visibility: visible;
+          transform: translateY(110%);
+          height: auto;
+        }
+      }
+   }
 
     @media (min-width: 1024px) {
         .box {
@@ -213,7 +269,7 @@
 
         .box-container:hover .project-content{
           opacity: 0;
-            animation: slideUp 1s forwards;
+            animation: slideUp .3s forwards;
         }
 
         .project-technologies a {
@@ -246,12 +302,12 @@
 
         .box {
             width: 300px;
-            height: 250px;
+            height: 220px;
         }
 
         .box-container:hover .project-content{
           opacity: 0;
-          animation: slideUp 1s forwards;
+          animation: slideUp .3s forwards;
       }
 
       @keyframes slideUp {
@@ -271,8 +327,14 @@
 
     @media (min-width: 1500px) {
         .box {
-            width: 400px;
-            height: 280px;
+            width: 325px;
+            height: 235px;
+        }
+
+
+        .box-container:hover .box {
+          height: 400px;
+
         }
 
         .box-container:hover .project-content{
@@ -289,8 +351,72 @@
           100% {
             opacity: 1;
             visibility: visible;
-            transform: translateY(110%);
+            transform: translateY(90%);
             height: auto;
           }
         }
     }
+
+    @media (min-width: 1800px) {
+      .box {
+          width: 400px;
+          height: 270px;
+      }
+
+
+      .box-container:hover .box {
+        height: 420px;
+
+      }
+
+      .box-container:hover .project-content{
+        opacity: 0;
+        animation: slideUp .3s forwards;
+    }
+
+    @keyframes slideUp {
+        0% {
+          opacity: 0;
+          visibility: hidden;
+          transform: translateY(230%);
+        }
+        100% {
+          opacity: 1;
+          visibility: visible;
+          transform: translateY(110%);
+          height: auto;
+        }
+      }
+  }
+
+  @media (min-width: 1800px) {
+    .box {
+        width: 430px;
+        height: 300px;
+    }
+
+
+    .box-container:hover .box {
+      height: 440px;
+
+    }
+
+    .box-container:hover .project-content{
+      opacity: 0;
+      animation: slideUp .3s forwards;
+  }
+
+  @keyframes slideUp {
+      0% {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(230%);
+      }
+      100% {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(130%);
+        height: auto;
+      }
+    }
+}

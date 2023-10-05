@@ -36,7 +36,7 @@ document.querySelector('.grid-boxes').innerHTML = modeldata
   const seeAll = document.querySelector('.more-btn');
 
   function adjustDisplayCount() {
-    if (window.innerWidth >= 768 && window.innerWidth < 1300) {
+    if (window.innerWidth >= 623 && window.innerWidth < 1300) {
       displayCount = 4;
     } 
     else if (window.innerWidth >= 1300) {
@@ -64,7 +64,7 @@ document.querySelector('.grid-boxes').innerHTML = modeldata
     }
   });
 
-  const MOBILE_WIDTH_THRESHOLD = 768;
+  const MOBILE_WIDTH_THRESHOLD = 623;
   const TABLET_WIDTH_THRESHOLD = 1300;
   let counter = 1;
   
