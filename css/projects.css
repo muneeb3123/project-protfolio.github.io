@@ -20,7 +20,7 @@
 }
 
 .works-div p {
-  font-size: 12px;
+  font-size: 0.7rem;
   font-weight: 500;
   color: #9c9c9c;
 }
@@ -48,8 +48,8 @@
     border: 1px solid #0ef;
     padding: 20px 10px 10px 10px;
     border-radius: 20px;
-    height: 250px;
-    width: 345px;
+    height: 270px;
+    width: 370px;
     transition: all .5s ease;
   }
 
@@ -166,7 +166,7 @@
        }
 
        .box-container:hover .box {
-        height: 380px;
+        height: 400px;
         margin-top: 60px;
       }
 
@@ -174,7 +174,7 @@
         0% {
           opacity: 0;
           visibility: hidden;
-          transform: translateY(230%);
+          transform: translateY(150%);
         }
         100% {
           opacity: 1;
@@ -221,6 +221,10 @@
 
     .projects {
       padding: 10%;
+    }
+
+    .works-div p {
+      font-size: 1rem;
     }
   } 
 

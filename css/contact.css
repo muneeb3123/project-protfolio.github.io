@@ -13,7 +13,7 @@
 }
 
 .contact-header p {
-    font-size: 12px;
+    font-size: 1rem;
     font-weight: 500;
     color: #9c9c9c;
 }
@@ -155,6 +155,10 @@ input:focus, textarea:focus {
 
     .contact-container {
         padding: 10% 5%;
+    }
+
+    .contact-header p {
+        font-size: 0.7rem;
     }
 
     input::placeholder, textarea::placeholder {

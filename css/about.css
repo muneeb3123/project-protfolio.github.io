@@ -27,8 +27,8 @@
 }
 
 .myselfHd p {
-    color: #fff;
-    font-size: 12px;
+    color: #9c9c9c;
+    font-size: 0.7px;
     margin: 0;
     padding: 0;
 }
@@ -79,7 +79,7 @@
     }
     
     .myselfHd p {
-        font-size: 16px;
+        font-size: 1rem;
     }
     
     .myself-paragraph p {
