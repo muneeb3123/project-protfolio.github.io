@@ -162,7 +162,7 @@
  @media (max-width: 1024px) {
     .box-container:hover .project-content {
       opacity: 0;
-        animation: slideUp .3s forwards;
+        animation: slideUp 1s forwards;
        }
 
        .box-container:hover .box {
@@ -174,7 +174,7 @@
         0% {
           opacity: 0;
           visibility: hidden;
-          transform: translateY(150%);
+          transform: translateY(130%);
         }
         100% {
           opacity: 1;
