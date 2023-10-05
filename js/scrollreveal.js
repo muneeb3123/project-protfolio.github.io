@@ -5,13 +5,9 @@ document.addEventListener('DOMContentLoaded', function () {
         delay: 200
     });
 
-    ScrollReveal().reveal('.project-header, .hero-header, .myselfHd, .skillHd, .container-header, .btn-cv', {
+    ScrollReveal().reveal(' .hero-header, .myselfHd, .skillHd, .container-header, .btn-cv', {
         origin: 'bottom',
     });
-
-    // ScrollReveal().reveal('.btn-cv', {
-    //     origin: 'bottom'
-    // });
 
     ScrollReveal().reveal('.contact-container, .box1, .skill-1', {
         origin: 'top',
@@ -19,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
         distance: '0px'
     });
 
-    ScrollReveal().reveal('.last', {
+    ScrollReveal().reveal('.last, .project-header', {
         origin: 'right'
     });
 

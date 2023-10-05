@@ -56,15 +56,35 @@ document.querySelector('.grid-boxes').innerHTML = modeldata
     e.preventDefault();
     if (displayCount === modeldata.length) {
       adjustDisplayCount();
+      seeAll.textContent = 'See All';
     } else {
       displayCount = modeldata.length;
       updateGrid();
+      seeAll.textContent = 'See Less';
     }
   });
+
+  const MOBILE_WIDTH_THRESHOLD = 768;
+  const TABLET_WIDTH_THRESHOLD = 1300;
+  let counter = 1;
   
-window.addEventListener('resize', () => {
-  if (window.innerWidth === 768 || window.innerWidth === 1300) {
-    adjustDisplayCount();
-    console.log('resize');
+  function handleResize() {
+    if (window.innerWidth < MOBILE_WIDTH_THRESHOLD && counter !== 1) {
+      counter = 1;
+      adjustDisplayCount();
+    } else if (
+      window.innerWidth >= MOBILE_WIDTH_THRESHOLD &&
+      window.innerWidth < TABLET_WIDTH_THRESHOLD &&
+      counter !== 2
+    ) {
+      counter = 2;
+      adjustDisplayCount();
+    } else if (window.innerWidth >= TABLET_WIDTH_THRESHOLD && counter !== 3) {
+      counter = 3;
+      adjustDisplayCount();
+    }
   }
-});
+  
+  // Attach the event listener
+  window.addEventListener('resize', handleResize);
+  

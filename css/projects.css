@@ -149,7 +149,7 @@
 
  @media (max-width: 1024px) {
     .box-container:hover .project-content {
-        animation: slideUp 1s forwards;
+        animation: slideUp 2s forwards;
        }
 
        .box-container:hover .box {
