@@ -1,16 +1,28 @@
 .projects {
-    padding: 10% 20px;
+    padding: 10% 5%;
     border: 1px solid #30353F;
     background-color: #323846;
 }
 
 .projects h1 {
-    display: flex;
-    justify-content: center;
+    
     color: #fff;
-    margin-bottom: 50px;
     font-size: 2.5rem;
     font-weight: 900;
+}
+
+.works-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.works-div p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #9c9c9c;
 }
 
 .projects h1 span {
@@ -151,7 +163,6 @@
     .box-container:hover .project-content {
       opacity: 0;
         animation: slideUp 1s forwards;
-        animation-delay: 1s;
        }
 
        .box-container:hover .box {
@@ -177,14 +188,15 @@
   
 
   @media (min-width: 768px) {
+
+    .projects {
+      padding: 10%;
+    }
+
     .grid-boxes {
       grid-template-columns: repeat(2, 1fr);
     }
-  }
-
-  .projects {
-    padding: 10%;
-} 
+  } 
 
     @media (min-width: 1024px) {
         .box {
@@ -202,7 +214,6 @@
         .box-container:hover .project-content{
           opacity: 0;
             animation: slideUp 1s forwards;
-            animation-delay: 1s;
         }
 
         .project-technologies a {
@@ -241,7 +252,6 @@
         .box-container:hover .project-content{
           opacity: 0;
           animation: slideUp 1s forwards;
-          animation-delay: 1s;
       }
 
       @keyframes slideUp {
@@ -268,7 +278,6 @@
         .box-container:hover .project-content{
           opacity: 0;
           animation: slideUp .3s forwards;
-          animation-delay: 1s;
       }
 
       @keyframes slideUp {

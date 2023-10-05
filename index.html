@@ -30,50 +30,32 @@
     <title>Muneeb's protfolio</title>
   </head>
   <body>
-    <!--Header-->
-    <header>
-      <nav>
-        <div class="Navbar">
-          <a href="#"
-            ><h3 class="nav-logo">Muneeb <span>Rehman</span></h3></a
-          >
-          <button class="hamburger">
-            <i class="menuIcon material-icons">menu</i>
-            <i class="closeIcon material-icons">close</i>
-          </button>
-          <ul class="menu">
-            <li><a class="menuItem" href="#works">Portfolio</a></li>
-            <li><a class="menuItem" href="#about-section">About</a></li>
-            <li><a class="menuItem" href="#Contact">Contact</a></li>
-          </ul>
-          <ul class="menue">
-            <li>
-              <a style="--i: 1;" class="menue-icon" href="#works">Portfolio</a>
-            </li>
-            <li>
-              <a style="--i: 2;" class="menue-icon" href="#about-section"
-                >About</a
-              >
-            </li>
-            <li>
-              <a style="--i: 3;" class="menue-icon" href="#Contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+
+    <!------------------------Header design ------------------>
+    <header class="header-menu">
+    <a href="#" class="logo">Muneeb <span>Rehman</span></a>
+
+    <i class="bx bx-menu" id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#Home" class="active">Home</a>
+      <a href="#works">Projects</a>
+      <a href="#Skills">Skills</a>
+      <a href="#Contact">Contact</a>
+      <a href="#About">About</a>
+    </nav>
     </header>
 
     <!-- Header End -->
 
     <!--Hero page-->
-    <section class="hero-page">
+    <section id="Home" class="hero-page">
       <div class="hero-header">
         <h3>Hello, It's Me</h3>
         <h1>Muneeb ur Rehman</h1>
         <h3>And I'm a <span class="multiple-text"></span></h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-          recusandae rerum perspiciatis non! Saepe, tenetur!
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptatum, aliquid reprehenderit reiciendis libero assumenda, temporibus unde aliquam eum iure itaque ea rerum dolorem illum saepe mollitia! Veritatis, quibusdam consectetur?
         </p>
         <div class="social-media">
           <a style="--i: 4;" href="#"><i class="bx bxl-twitter"></i></a>
@@ -93,7 +75,10 @@
     <!-- Dynamic Projects -->
 
     <section id="works" class="projects">
+      <div class="works-div">
       <h1 class="project-header">My <span>Projects</span></h1>
+      <p class="project-text">For those who know what they’re looking for..</p>
+    </div>
       <div class="grid-boxes"></div>
       <div class="see-more">
         <a href="#" class="more-btn btn-cv">See More</a>
@@ -104,7 +89,7 @@
 
     <!-- SKILLS -->
 
-    <section class="skills-tools">
+    <section id="Skills" class="skills-tools">
       <div class="skillHd">
         <h1 class="skill-header">My <span>Skills</span></h1>
         <p class="skill-text">For those who know what they’re looking for..</p>
@@ -260,7 +245,7 @@
     <!-- End Skills -->
 
     <!-- About -->
-    <section class="aboutSection">
+    <section id="About" class="aboutSection">
       <div class="myselfHd">
         <h2 class="myself-header">About <span>Me</span></h2>
         <p class="myself-text">
@@ -339,6 +324,8 @@
     <section id="Contact" class="contact-container">
       <div class="contact-header">
         <h2 class="container-header">Contact <span>Me!</span></h2>
+        <p class="container-text">
+          For those who want to get in touch with me!
       </div>
       <div class="contact-content">
       <div class="contact-info">
