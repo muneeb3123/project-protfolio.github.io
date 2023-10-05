@@ -62,5 +62,9 @@ document.querySelector('.grid-boxes').innerHTML = modeldata
     }
   });
   
-  window.addEventListener('resize', adjustDisplayCount);
- 
+window.addEventListener('resize', () => {
+  if (window.innerWidth === 768 || window.innerWidth === 1300) {
+    adjustDisplayCount();
+    console.log('resize');
+  }
+});
