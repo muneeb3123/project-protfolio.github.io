@@ -10,12 +10,14 @@
   }
   
   .home-img img {
-    max-height: 300px;
+    max-height: 400px;
     opacity: 0;
-    border-radius: 10px;
+    border-radius: 20%;
+    border: 2px solid #0ef;
     box-shadow: 0 0 20px #0ef;
     animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
     animation-delay: 2s, 3s;
+    display: none;
   }
   
   .hero-header {
@@ -104,6 +106,10 @@
     .hero-page {
       flex-direction: row;
       padding: 20% 10%;
+    }
+
+    .home-img img {
+      display: block;
     }
     
     .hero-header h1 {

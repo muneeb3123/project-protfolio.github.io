@@ -34,6 +34,10 @@
     padding: 0;
 }
 
+.myself-paragraph p span {
+    color: #0ef;
+}
+
 .myselfHd h2 span {
     color: #0ef;
 }
