@@ -56,7 +56,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="protfolio-project"></a>
- https://dashing-biscuit-056b6e.netlify.app
+ https://muneeb-portfolio-dev.netlify.app/
 This is live version of my protfolio project.you can click on this link to watch live demo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -1,100 +1,100 @@
 .skills-tools {
-    padding: 10%;
-    border: 1px solid #30353F;
+  padding: 10%;
+  border: 1px solid #30353f;
 }
 
 .skillHd {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .skillHd h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #fff;
-    font-family: poppinsFont;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  font-family: "poppins-font", sans-serif;
 }
+
 .skillHd h1 span {
-    color: #0ef;
+  color: #0ef;
 }
 
 .skillHd p {
-    font-size: 1rem;
-    font-weight: 500;
-    color: #9c9c9c;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #9c9c9c;
 }
 
 .skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; 
-    justify-content: center;
-    align-items: center;
-    padding: 30px 0;
-    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  width: 100%;
 }
 
 .skill-icon img {
-    width: 70px;
-    height: 70px;
+  width: 70px;
+  height: 70px;
 }
 
 .single-skill {
-    width: 160px;
-    height: 160px;
-    background-color: #30353F;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    transition: border .5s ease, box-shadow .5s ease, transform .5s ease;
+  width: 160px;
+  height: 160px;
+  background-color: #30353f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  transition: border 0.5s ease, box-shadow 0.5s ease, transform 0.5s ease;
 }
 
 .single-skill:hover {
-    border: 1px solid #0ef;
-    box-shadow: 0 0 10px #0ef;
-    transform: scale(1.1);
+  border: 1px solid #0ef;
+  box-shadow: 0 0 10px #0ef;
+  transform: scale(1.1);
 }
 
 .skill-name h3 {
-    font-size: 12px;
-    color: #fff;
-    text-align: center;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
-    .single-skill {
-        width: 145px;
-        height: 145px;
-    }
+  .single-skill {
+    width: 145px;
+    height: 145px;
+  }
 
-    .skills-tools {
-        padding: 10% 5%;
-    }
+  .skills-tools {
+    padding: 10% 5%;
+  }
 
-    .skill-icon img {
-        width: 50px;
-        height: 50px;
-    }
+  .skill-icon img {
+    width: 50px;
+    height: 50px;
+  }
 
-    .skillHd p {
-        font-size: 0.7rem;
-    }
-
+  .skillHd p {
+    font-size: 0.7rem;
+  }
 }
 
 @media (min-width: 1300px) {
-    .skills-tools {
-        padding: 5% 15%;
-    }
+  .skills-tools {
+    padding: 5% 15%;
+  }
 }
 
 @media (min-width: 1700px) {
-    .single-skill {
-        width: 148px;
-        height: 148px;
-    }
+  .single-skill {
+    width: 148px;
+    height: 148px;
+  }
 }

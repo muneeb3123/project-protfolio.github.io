@@ -1,5 +1,5 @@
 @font-face {
-  font-family: poppinsFont;
+  font-family: poppins-font;
   src: url('/fonts/Poppins-Bold.ttf');
 }
 
@@ -8,7 +8,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
