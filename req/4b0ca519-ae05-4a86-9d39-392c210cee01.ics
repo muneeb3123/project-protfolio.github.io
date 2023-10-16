@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendly//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTAMP:20231010T081609Z
+UID:calendly-819209179
+DTSTART:20231018T130000Z
+DTEND:20231018T140000Z
+CLASS:PRIVATE
+DESCRIPTION:Event Name: Tech Talk: How To Kick-Start Your Career\nEvent Des
+ cription: Host: Daniela Ruiz + Yussouf NtwaliType of Event: Tech TalksDesc
+ ription: Yussouf Ntwali is a Rwandan technology entrepreneur. He is the C
+ o-Founder of BAG. With his team\, they're building Africa's largest virtua
+ l job simulation platform. He is passionate about entrepreneurship\, techn
+ ology\, education and solving youth unemployment. Today\, BAG is an award
+  winning startup and one of the biggest ones came when we got recognized b
+ y the African Union as one of the best technologies in education on the Af
+ rican continent.Website: www.bag.work\nDate & Time: 06:00pm - 07:00pm (Pa
+ kistan\, Maldives Time) on Wednesday\, October 18\, 2023\nLocation: https:
+ //microverse.zoom.us/j/732346749?pwd=aUYzSEZJWG5xVEEyQURjTkp2NEhlUT09\n\nN
+ eed to make changes to this event?\nCancel: https://calendly.com/cancellat
+ ions/4b0ca519-ae05-4a86-9d39-392c210cee01\nReschedule: https://calendly.co
+ m/reschedulings/4b0ca519-ae05-4a86-9d39-392c210cee01\n
+LOCATION:https://microverse.zoom.us/j/732346749?pwd=aUYzSEZJWG5xVEEyQURjTkp
+ 2NEhlUT09
+SUMMARY:Tech Talk: How To Kick-Start Your Career with Microverse Career Ser
+ vices
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

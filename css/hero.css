@@ -6,11 +6,14 @@
     flex-direction: column-reverse;
     padding: 20% 5%;
     align-items: center;
+    gap: 30px;
   }
   
   .home-img img {
-    max-width: 300px;
+    max-height: 300px;
     opacity: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #0ef;
     animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
     animation-delay: 2s, 3s;
   }
@@ -22,6 +25,7 @@
   
   .hero-header h1 {
     font-size: 1.5rem;
+    font-family: poppinsFont;
     font-weight: 700;
     margin: -3px 0;
     opacity: 0;
@@ -53,6 +57,7 @@
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
+    width: 95%;
   }
   
   .social-media a {
@@ -131,10 +136,10 @@
       height: 100vh;
     }
   
-    .home-img img {
-      max-width: 450px;
-    }
-  
+     .home-img img {
+      max-height: 450px;
+    } 
+
     .hero-header h1 {
       font-size: 3.5rem;
     }
