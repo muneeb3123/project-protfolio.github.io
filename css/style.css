@@ -602,7 +602,6 @@ textarea:focus {
   }
 }
 
-
 @keyframes zoomIn {
   0% {
     opacity: 0;
@@ -614,7 +613,6 @@ textarea:focus {
     transform: scale(1);
   }
 }
-
 
 @media (max-width: 768px) {
   /* skill page css */
@@ -679,7 +677,7 @@ textarea:focus {
   .box-container:hover .project-content {
     opacity: 0;
     animation: slideUp 0.3s ease forwards;
-    animation-delay: .5s;
+    animation-delay: 0.5s;
   }
 
   .box-container:hover .box {
