@@ -1,3 +1,6 @@
+/* eslint-disable prefer-const */
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
 /* combined.js */
 
 const sections = document.querySelectorAll('section');
@@ -52,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ' .hero-header, .myselfHd, .skillHd, .contact-header , .btn-cv, .works-div',
     {
       origin: 'bottom',
-    }
+    },
   );
 
   ScrollReveal().reveal('.contact-container, .box1, .skill-1', {
@@ -73,5 +76,3 @@ document.addEventListener('DOMContentLoaded', () => {
     opacity: 0,
   });
 });
-
-/* End of combined JavaScript file */
