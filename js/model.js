@@ -21,8 +21,8 @@ function updateGrid() {
     .join('')}
             </div>
               <div class="content-footer">
-                <a href="${data.sourcelink}" class="source"><i class='bx bxl-github'></i>Source</a>
-                <a href="${data.livelink}" class="live-link"><i class='bx bx-low-vision' ></i>Live</a>
+                <a href="${data.sourcelink}" target="_blank" class="source"><i class='bx bxl-github'></i>Source</a>
+                <a href="${data.livelink}" target="_blank" class="live-link"><i class='bx bx-low-vision' ></i>Live</a>
               </div>
               </div>
             </div>
