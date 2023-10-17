@@ -140,7 +140,7 @@ textarea:focus {
   top: 50%;
   transform: translateY(-50%);
   opacity: 0;
-  animation: changeOpacity 1.3s ease forwards infinite;
+  animation: changeOpacity 1s ease forwards infinite;
 }
 
 @keyframes changeOpacity {

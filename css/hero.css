@@ -15,8 +15,8 @@
   border-radius: 20%;
   border: 2px solid #0ef;
   box-shadow: 0 0 20px #0ef;
-  animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
-  animation-delay: 2s, 3s;
+  animation: zoomIn 1s ease forwards, floatImage 3s ease-in-out infinite;
+  animation-delay: 1s, 2s;
   display: none;
 }
 
