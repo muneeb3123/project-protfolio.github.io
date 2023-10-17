@@ -46,11 +46,11 @@ body {
 
 .home-img img {
   max-height: 400px;
-  opacity: 0;
   border-radius: 20%;
   border: 2px solid #0ef;
   box-shadow: 0 0 20px #0ef;
-  animation: zoomIn 1s ease forwards, floatImage 3s ease-in-out infinite;
+  opacity: 0;
+  animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
   animation-delay: 1s, 2s;
   display: none;
 }
@@ -65,9 +65,6 @@ body {
   font-family: "poppins-font", sans-serif;
   font-weight: 700;
   margin: -3px 0;
-  opacity: 0;
-  animation: slideRight 1s ease forwards;
-  animation-delay: 1s;
 }
 
 .hero-header h3 span {
@@ -77,23 +74,14 @@ body {
 .hero-header h3 {
   font-size: 1rem;
   font-weight: 700;
-  opacity: 0;
-  animation: slideBottom 1s ease forwards;
-  animation-delay: 0.7s;
 }
 
 .hero-header h3:nth-of-type(2) {
   margin-bottom: 20px;
-  opacity: 0;
-  animation: slideTop 1s ease forwards;
-  animation-delay: 0.7s;
 }
 
 .hero-header p {
   font-size: 13px;
-  opacity: 0;
-  animation: slideLeft 1s ease forwards;
-  animation-delay: 1s;
   width: 95%;
 }
 
@@ -110,9 +98,6 @@ body {
   font-size: 20px;
   margin: 30px 10px 30px 0;
   transition: 0.5s ease;
-  opacity: 0;
-  animation: slideLeft 1s ease forwards;
-  animation-delay: calc(0.2s * var(--i));
 }
 
 .social-media a:hover {
@@ -603,6 +588,34 @@ textarea:focus {
   }
 }
 
+@keyframes floatImage {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
 @media (max-width: 768px) {
   /* skill page css */
   .single-skill {
@@ -666,7 +679,7 @@ textarea:focus {
   .box-container:hover .project-content {
     opacity: 0;
     animation: slideUp 0.3s ease forwards;
-    animation-delay: 1s;
+    animation-delay: .5s;
   }
 
   .box-container:hover .box {
