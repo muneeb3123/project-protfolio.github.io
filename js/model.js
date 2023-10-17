@@ -8,7 +8,7 @@ function updateGrid() {
     <div class="box-container ${index >= displayCount ? 'hidden' : ''}">
           <div id="box-${index}" class="box box1">
             <div class="imgBx">
-              <img src="${data.image}" alt="${data.projectname}" />
+              <img src="${data.image}" alt="${data.projectname}" loading="lazy" />
               <h2>${data.projectname}</h2>
               <div class="project-content">
                 <h3>${data.field}</h3>
