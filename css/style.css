@@ -3,6 +3,7 @@
 @font-face {
   font-family: poppins-font;
   src: url('/fonts/Poppins-Bold.woff2') format('woff2');
+  font-display: swap;
 }
 
 * {
