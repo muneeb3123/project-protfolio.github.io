@@ -29,47 +29,47 @@ document.querySelector('.Grid-boxes').innerHTML = modeldata
   )
   .join('');
 
-const displayModal = (marzi) => {
+const displayModal = (val) => {
   const modalSection = document.querySelector('.modal');
   modalSection.innerHTML = ` <div class='overlay'></div>
     <div class='popup flex'>
         <div class='header flex'>
-            <h1 class='heading'>${marzi.projectname}</h1>
+            <h1 class='heading'>${val.projectname}</h1>
             <button class='closeBtn'>&times;</button>
         </div>
         <ul class='author flex'>
-            <li class='frame1'>${marzi.frame[0]}</li>
-            <li><img src='${marzi.dot}' alt='dot' /></li>
-            <li class='frame'>${marzi.frame[1]}</li>
-            <li><img src='${marzi.dot}' alt='dot' /></li>
-            <li class='frame'>${marzi.frame[2]}</li>
+            <li class='frame1'>${val.frame[0]}</li>
+            <li><img src='${val.dot}' alt='dot' /></li>
+            <li class='frame'>${val.frame[1]}</li>
+            <li><img src='${val.dot}' alt='dot' /></li>
+            <li class='frame'>${val.frame[2]}</li>
         </ul>
         <div class='projectImage'>
-            <img class='image' src='${marzi.popimage}' alt='' />
+            <img class='image' src='${val.popimage}' alt='' />
         </div>
         <div class='deskres'>
             <div class='para'>
                 <p class='paraText'>
-                ${marzi.disdes}
+                ${val.disdes}
                 </p>
             </div>
             <ul class='socialmediaa flex'>
-                <li class='desktag'>${marzi.technologies[0]}</li>
-                <li class='desktag'>${marzi.technologies[1]}</li>
-                <li class='desktag'>${marzi.technologies[2]}</li>
-                <li class='desktag desktag1'>${marzi.technologies[3]}</li>
-                <li class='desktag desktag1'>${marzi.technologies[4]}</li>
-                <li class='desktag desktag1'>${marzi.technologies[5]}</li>
+                <li class='desktag'>${val.technologies[0]}</li>
+                <li class='desktag'>${val.technologies[1]}</li>
+                <li class='desktag'>${val.technologies[2]}</li>
+                <li class='desktag desktag1'>${val.technologies[3]}</li>
+                <li class='desktag desktag1'>${val.technologies[4]}</li>
+                <li class='desktag desktag1'>${val.technologies[5]}</li>
             </ul>
             <div class='separater'>
-                <img src='${marzi.sep}' alt='sep' class='sep' />
+                <img src='${val.sep}' alt='sep' class='sep' />
             </div>
             <div class='smBtn flex'>
                 <button class='popBtn flex'>
-                    see live<img src='${marzi.livelogo}' alt='${marzi.livelink}' class='sImage' />
+                    see live<img src='${val.livelogo}' alt='${val.livelink}' class='sImage' />
                 </button>
                 <button class='popBtn flex'>
-                    see source<img src='${marzi.sourcelogo}' alt='${marzi.sourcelink}' class='sImage' />
+                    see source<img src='${val.sourcelogo}' alt='${val.sourcelink}' class='sImage' />
                 </button>
             </div>
         </div>
