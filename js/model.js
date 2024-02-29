@@ -1,4 +1,4 @@
-import modeldata from './modelData.js';
+import {modeldata} from './modelData.js';
 
 document.querySelector('.Grid-boxes').innerHTML = modeldata
   .map(

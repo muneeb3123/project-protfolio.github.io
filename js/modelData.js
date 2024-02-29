@@ -88,4 +88,4 @@ const projectData = [
     sourcelink: 'https://github.com/muneeb3123/project-protfolio.github.io',
   },
 ];
-export default projectData;
+export {projectData};
