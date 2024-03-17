@@ -48,7 +48,7 @@ body {
 .home-img img {
   max-height: 400px;
   border-radius: 20%;
-  border: 2px solid #0ef;
+  border: 1px solid #0ef;
   box-shadow: 0 0 20px #0ef;
   opacity: 0;
   animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
