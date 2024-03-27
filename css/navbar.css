@@ -20,7 +20,7 @@
   font-size: 1.1rem;
   font-weight: 650;
   color: var(--text-color);
-  cursor: default;
+  cursor: pointer;
 }
 
 .logo span {
