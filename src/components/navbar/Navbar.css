@@ -1,0 +1,121 @@
+/* 
+.header-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 10%;
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+  }
+  
+  .header-menu .sticky {
+    border-bottom: 0.3rem solid rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo {
+    font-size: 1.1rem;
+    font-weight: 650;
+    color: var(--text-color);
+    cursor: pointer;
+  }
+  
+  .logo span {
+    color: #0ef;
+  }
+  
+  .navbar a {
+    font-size: 0.9rem;
+    color: var(--text-color);
+    margin-left: 1.1rem;
+    transition: 0.3s;
+    position: relative;
+  }
+  
+  .navbar a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #0ef;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.5s ease-in-out 0s;
+  }
+  
+  .navbar a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+  
+  .navbar a:hover,
+  .navbar a.active {
+    color: var(--main-color);
+    transition-duration: 0.5s;
+  }
+  
+  #menu-icon {
+    font-size: 2.2rem;
+    color: var(--text-color);
+    display: none;
+  }
+  
+  @media (max-width: 767px) {
+    #menu-icon {
+      display: block;
+    }
+  
+    .navbar {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      padding: 0 5%;
+      background-color: var(--bg-color);
+      border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+      display: none;
+    }
+  
+    .navbar.active {
+      display: block;
+    }
+  
+    .navbar a {
+      display: block;
+      font-size: 1rem;
+      margin: 1.6rem 0;
+    }
+  
+    .header-menu {
+      padding: 1rem 5%;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .navbar a {
+      font-size: 1.2rem;
+      margin-left: 1.5rem;
+    }
+  }
+  
+  @media (min-width: 1300px) {
+    .navbar a {
+      font-size: 1.2rem;
+      margin-left: 3rem;
+    }
+  
+    .logo {
+      font-size: 1.5rem;
+    }
+  
+    .header-menu {
+      padding: 2rem 15%;
+    }
+  }
+   */
