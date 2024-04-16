@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-size: 62.5%;
+}
+
+.navbar a::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #0ef;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.5s ease-in-out 0s;
+  }
+  
+   .navbar a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+  } 
+
+  .nav-link {
+    @apply relative
+  }
+
+.active {
+    @apply text-main-color;
+}

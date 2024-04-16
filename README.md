@@ -1,151 +1,70 @@
-<a name="readme-top"></a>
+# Getting Started with Create React App
 
-<!-- TABLE OF CONTENTS -->
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# 📗 Table of Contents
+## Available Scripts
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+In the project directory, you can run:
 
-<!-- PROJECT DESCRIPTION -->
+### `npm start`
 
-# 📖 [Protfolio-project] <a name="about-project"></a>
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## 🛠 Built With <a name="visual studio">HTML5</a>
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Tech Stack <a name="tech-stack"></a>
+### `npm test`
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-<!-- Features -->
+### `npm run build`
 
-### Key Features <a name="key-features"></a>
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-> Describe between 1-3 key features of the application.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- **It has linters**
-- **It has MIT license**
-- **It has html**
-- **It has CSS**
-- **It has javascript**
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### `npm run eject`
 
-<!-- LIVE DEMO -->
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## 🚀 Live Demo <a name="protfolio-project"></a>
- https://muneeb-portfolio-dev.netlify.app/
-This is live version of my protfolio project.you can click on this link to watch live demo
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-<!-- GETTING STARTED -->
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## 💻 Getting Started <a name="getting-started"></a>
+## Learn More
 
-To get a local copy up and running, follow these steps.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Prerequisites
-In order to run this project you need:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Step 1: if you don't have git installed on your machine you can download it from [here](https://git-scm.com/downloads).
+### Code Splitting
 
-Once you have git installed on your machine you can clone your project by running the command below to clone your project to your local machine
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+### Analyzing the Bundle Size
 
-`git clone https://github.com/muneeb3123/Project-1.git`
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Alternatively, you can download the zip file of your project by clicking on the `Code` button on the right side of your project page and clicking on `Download ZIP`
+### Making a Progressive Web App
 
-Step 2: Locate the folder where you cloned your project to and open the `index.html` file in your browser to view your project.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Advanced Configuration
 
-<!-- AUTHORS -->
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-## 👥 Author <a name="authors"></a>
+### Deployment
 
-👤 **Muneeb UR Rehman**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-- GitHub: [@muneeb3123](https://github.com/muneeb3123)
-- Twitter: [@Hafizabd4](https://twitter.com/Hafizabd4)
-- LinkedIn: (https://www.linkedin.com/in/muneeb-rehman-01b6bb193/)
+### `npm run build` fails to minify
 
-👤 **Author: Alejandro Salazar Castro**
-
-- GitHub: [@githubhandle](https://github.com/xandro2021)
-- Twitter: [@twitterhandle](https://twitter.com/xandro2021)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alejandro-salazar-ba0ba7255/)
-- Mastodon: [Mastodon](https://uiuxdev.social/@xandrocastro)
-
-👤 **Author: Alejandro Salazar Castro**
-- GitHub: [uuukiiiyooo](https://github.com/uuukiiiyooo)
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-- **CSS framework designing**
-- **More detailed**
-- **Master HTML**
-- **deskstop version**
-- outline walkthrough: https://www.loom.com/share/b2022093bb4542649e3c5299d6f374b9
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-**please show your support to improve my skills .this will help me to work hard**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-"Special thanks to my coding partner "Alejandro Salazar Castro" for their invaluable contributions to this project. Their dedication, skills, and collaborative spirit were essential to our success."
-
-
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE.md) licensed.
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
