@@ -17,7 +17,7 @@ function updateGrid() {
                 </p>
                 <div class="project-technologies">
               ${data.technologies
-    .map((tech) => `<a href="#"><i class='bx ${tech}' ></i></a>`)
+    .map((tech) => `<a href="#"><i class='${tech}' ></i></a>`)
     .join('')}
             </div>
               <div class="content-footer">
